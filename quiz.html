@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
+    <title>PolitHex</title>
+    <meta property="og:ttl" content="600">
+    <meta property="og:site_name" content="quark88.github.io/polithex">
+    <meta property="og:title" content="PolitHex">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://quark88.github.io/polithex/">
+    <meta property="og:image" content="https://quark88.github.io/polithex/embed-icon.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta name="theme-color" content="#d2424c" data-react-helmet="true">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>
+        <a href="./index.html" onclick="return index()">
+            <span class="capitalLetter">P</span>olit<span class="capitalLetter">H</span>ex
+        </a>
+    </h1>
+    <h2 id="questionNumber"></h2>
+    <div id="question"></div>
+    <button class="button" style="background-color: #008000!important;" onclick="answer(1)">Strongly Agree</button>
+    <button class="button" style="background-color: #40a000!important;" onclick="answer(0.5)">Agree</button>
+    <button class="button" style="background-color: #c0a000!important;" onclick="answer(0)">Neutral</button>
+    <button class="button" style="background-color: #c06000!important;" onclick="answer(-0.5)">Disagree</button>
+    <button class="button" style="background-color: #c02000!important;" onclick="answer(-1)">Strongly Disagree</button>
+    <button class="backButton" onclick="prevQuestion()">Back</button>
+    <div style="height: 16vh;"></div>
+    <p>Quark 2023</p>
+</body>
+<script>
+    function index() {
+        var result = confirm("Go back to the main page?");
+        if (result) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    var questions
+    var max_score = { demo: 0, hori: 0, auto: 0, prop: 0, hier: 0, comm: 0 }
+    var user_score = { demo: 0, hori: 0, auto: 0, prop: 0, hier: 0, comm: 0 }
+    var questionId
+    var qN = 0
+    var answers = []
+    function parseQuestions(data) {
+        questions = data
+        for (let i = 0; i < questions.length; i++) {
+            max_score[questions[i].a] += Math.abs(questions[i].w)
+        }
+        loadQuestion()
+    }
+    function answer(val) {
+        user_score[questionId.a] += val * questionId.w
+        qN++
+        answers.push(val)
+        if (qN < questions.length) {
+            loadQuestion()
+        }
+        else {
+            results()
+        }
+    }
+    function calc(val) {
+        return ((max_score[val] + user_score[val]) / (2 * max_score[val])).toFixed(2)
+    }
+    function results() {
+        location.href = `results.html?${calc("demo")},${calc("hori")},${calc("auto")},${calc("prop")},${calc("hier")},${calc("comm")}`
+    }
+    function loadQuestion() {
+        questionId = questions[qN]
+        document.getElementById("question").innerHTML = questionId.q
+        document.getElementById("questionNumber").innerHTML = "Question " + (qN + 1) + " of " + questions.length
+    }
+    function prevQuestion() {
+        if (qN == 0) {
+            window.history.back()
+        }
+        else {
+            qN--
+            loadQuestion()
+            user_score[questionId.a] -= answers.slice(-1).pop() * questionId.w
+            answers.pop()
+        }
+    }
+    fetch("questions.json")
+        .then(response => response.json())
+        .then(data => parseQuestions(data))
+</script>
+
+</html>

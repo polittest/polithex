@@ -1,0 +1,182 @@
+[
+    {
+        "q": "Obedience and respect for authority are the most important virtues children should learn.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "What this country needs most, more than laws and political programs, is a few courageous, tireless, devoted leaders in whom the people can put their faith.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "Workers in the most essential parts of the economy should not be allowed to strike.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "Prisoners should be forced to work to repay their debt to society.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "At some point, the state will no longer be necessary.",
+        "w": -1,
+        "a": "hier"
+    },
+    {
+        "q": "Ideally, politicians would not exist.",
+        "w": -1,
+        "a": "hier"
+    },
+    {
+        "q": "Private ownership of land is natural and desirable.",
+        "w": 1,
+        "a": "prop"
+    },
+    {
+        "q": "Private investors play an essential role in the economy.",
+        "w": 1,
+        "a": "prop"
+    },
+    {
+        "q": "Landlords have an important role to play by providing housing for people who can’t afford to buy.",
+        "w": 1,
+        "a": "prop"
+    },
+    {
+        "q": "Theft can never be justified.",
+        "w": 1,
+        "a": "prop"
+    },
+    {
+        "q": "Inheritance is not a legitimate form of wealth.",
+        "w": -1,
+        "a": "prop"
+    },
+    {
+        "q": "The destruction of property is not violence, or comparable to assault.",
+        "w": -1,
+        "a": "prop"
+    },
+    {
+        "q": "Victimless crimes, or crimes where the victim is society, should not be considered crimes at all.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
+        "q": "Society does not exist, there are only individuals.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
+        "q": "If people wish to sell their organs they should be permitted to.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
+        "q": "Trade between two consenting individuals should never be obstructed.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
+        "q": "Some things are too important to be left to market forces.",
+        "w": -1,
+        "a": "auto"
+    },
+    {
+        "q": "Economic competition corrodes the fabric of society.",
+        "w": -1,
+        "a": "auto"
+    },
+    {
+        "q": "Individuals should have full control of their work.",
+        "w": 1,
+        "a": "hori"
+    },
+    {
+        "q": "Monopolies, state or otherwise, can never be allowed to exist.",
+        "w": 1,
+        "a": "hori"
+    },
+    {
+        "q": "Hierarchy cannot exist without coercion.",
+        "w": 1,
+        "a": "hori"
+    },
+    {
+        "q": "Capitalism and the state are evils which perpetuate one another.",
+        "w": 1,
+        "a": "hori"
+    },
+    {
+        "q": "Large organisations cannot exist without some form of top down structure.",
+        "w": -1,
+        "a": "hori"
+    },
+    {
+        "q": "Worker co-ops are not any better than traditional firms.",
+        "w": -1,
+        "a": "hori"
+    },
+    {
+        "q": "People’s basic needs should be provided for free.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "Humans have the potential to be fully altruistic, but our current system makes people selfish.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "A communist society is a desirable end goal.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "More laws should be determined by referendums.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "Tyranny of the majority is a legitimate concern.",
+        "w": -1,
+        "a": "demo"
+    },
+    {
+        "q": "Equality of outcome is a dangerous goal to pursue.",
+        "w": -1,
+        "a": "demo"
+    },
+    {
+        "q": "The most important parts of the economy should be nationalised.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
+        "q": "The economy needs regulating by the government in order to function correctly.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
+        "q": "Income tax is a necessary evil, if an evil at all.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
+        "q": "Education should be state run to ensure quality education for all children.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
+        "q": "State welfare programs should be replaced by charity or mutual aid.",
+        "w": -1,
+        "a": "comm"
+    },
+    {
+        "q": "The state should play a smaller role in the economy.",
+        "w": -1,
+        "a": "comm"
+    }
+]

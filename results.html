@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
+    <title>PolitHex</title>
+    <meta property="og:ttl" content="600">
+    <meta property="og:site_name" content="quark88.github.io/polithex">
+    <meta property="og:title" content="PolitHex">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://quark88.github.io/polithex/">
+    <meta property="og:image" content="https://quark88.github.io/polithex/embed-icon.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta name="theme-color" content="#d2424c" data-react-helmet="true">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>
+        <a href="./index.html" onclick="return index()">
+            <span class="capitalLetter">P</span>olit<span class="capitalLetter">H</span>ex
+        </a>
+    </h1>
+    <h2>Results</h2>
+    <canvas id="results" width="960" height="1024"></canvas>
+    <button class="backButton" onclick="location.href='index.html'">Back</button>
+    <div style="height: 16vh;"></div>
+    <p>Quark 2023</p>
+</body>
+<script>
+    function index() {
+        var result = confirm("Go back to the main page?");
+        if (result) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    const canvas = document.getElementById("results")
+    const ctx = canvas.getContext("2d")
+    var leftTr
+    var rightTr
+    var hexagon = new Image()
+    hexagon.src = "hexagon.svg"
+    const vars = window.location.search.substring(1).split(",").map(parseFloat)
+    function calcTriang(input) {
+        let sum = input.x + input.y + input.z
+        if (sum == 0) {
+            return { x: 1 / 3, y: 1 / 3, z: 1 / 3 }
+        }
+        else {
+            return { x: input.x / sum, y: input.y / sum, z: input.z / sum }
+        }
+    }
+    function drawCanvas(lT, rT) {
+        ctx.fillStyle = "#202020"
+        ctx.fillRect(0, 0, 960, 1024)
+        ctx.drawImage(hexagon, 96, 24)
+        let x1 = lT.y //demo
+        let y1 = lT.x - lT.z //auto - hier
+        let x2 = rT.x //prop
+        let y2 = rT.y - rT.z //hori - comm
+        let X1 = 634 - (x1 * 465)
+        let Y1 = 404 + (y1 * 268)
+        let X2 = 324 + (x2 * 465)
+        let Y2 = 404 + (y2 * 268)
+        let X = (X1 + X2) / 2
+        let Y = (Y1 + Y2) / 2
+        ctx.beginPath()
+        ctx.fillStyle = "#600000"
+        ctx.arc(X, Y, 10, 0, 2 * Math.PI)
+        ctx.fill()
+        ctx.beginPath()
+        ctx.fillStyle = "#ff0000"
+        ctx.arc(X, Y, 8, 0, 2 * Math.PI)
+        ctx.fill()
+        ctx.font = "40px futura"
+        ctx.textAlign = "left"
+        ctx.fillStyle = "#93952f"
+        ctx.fillText("Autonomy: " + ((lT.x * 100).toFixed(2)) + "%", 64, 856)
+        ctx.fillStyle = "#ff2923"
+        ctx.fillText("Democracy: " + ((lT.y * 100).toFixed(2)) + "%", 64, 908)
+        ctx.fillStyle = "#4f2578"
+        ctx.fillText("Hierarchy: " + ((lT.z * 100).toFixed(2)) + "%", 64, 960)
+        ctx.textAlign = "right"
+        ctx.fillStyle = "#22546a"
+        ctx.fillText("Property: " + ((rT.x * 100).toFixed(2)) + "%", 896, 856)
+        ctx.fillStyle = "#ff6400"
+        ctx.fillText("Horizontality: " + ((rT.y * 100).toFixed(2)) + "%", 896, 908)
+        ctx.fillStyle = "#c10061"
+        ctx.fillText("Command: " + ((rT.z * 100).toFixed(2)) + "%", 896, 960)
+    }
+    leftTr = calcTriang({ x: vars[2], y: vars[0], z: vars[4] })
+    rightTr = calcTriang({ x: vars[3], y: vars[1], z: vars[5] })
+    window.onload = function () {
+        drawCanvas(leftTr, rightTr)
+    }
+</script>
+
+</html>
