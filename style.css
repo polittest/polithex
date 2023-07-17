@@ -9,18 +9,24 @@
     --property: #22546a;
     --hierarchy: #4f2578;
     --command: #c10061;
-    --democracyDark: #ff292380;
-    --horizontalityDark: #ff640080;
-    --autonomyDark: #93952f80;
-    --propertyDark: #22546a80;
-    --hierarchyDark: #4f257880;
-    --commandDark: #c1006180;
-    --democracyDarker: #ff292340;
-    --horizontalityDarker: #ff640040;
-    --autonomyDarker: #93952f40;
-    --propertyDarker: #22546a40;
-    --hierarchyDarker: #4f257840;
-    --commandDarker: #c1006140;
+    --red: #ff002f;
+    --orange: #ff4200;
+    --yellow: #ffb900;
+    --green: #008339;
+    --blue: #2a2f78;
+    --purple: #780078;
+    --redDark: #ff002f80;
+    --orangeDark: #ff420080;
+    --yellowDark: #ffb90080;
+    --greenDark: #00833980;
+    --blueDark: #2a2f7880;
+    --purpleDark: #78007880;
+    --redDarker: #ff002f40;
+    --orangeDarker: #ff420040;
+    --yellowDarker: #ffb90040;
+    --greenDarker: #00833940;
+    --blueDarker: #2a2f7840;
+    --purpleDarker: #78007840;
 }
 
 @font-face {
@@ -203,121 +209,121 @@ li {
 
 @keyframes rainbowText {
     0% {
-        text-shadow: 0.375vw 0 var(--democracy);
+        text-shadow: 0.375vw 0 var(--red);
     }
 
     16.67% {
-        text-shadow: 0.375vw 0 var(--horizontality);
+        text-shadow: 0.375vw 0 var(--orange);
     }
 
     33.33% {
-        text-shadow: 0.375vw 0 var(--autonomy);
+        text-shadow: 0.375vw 0 var(--yellow);
     }
 
     50% {
-        text-shadow: 0.375vw 0 var(--property);
+        text-shadow: 0.375vw 0 var(--green);
     }
 
     66.67% {
-        text-shadow: 0.375vw 0 var(--hierarchy);
+        text-shadow: 0.375vw 0 var(--blue);
     }
 
     83.33% {
-        text-shadow: 0.375vw 0 var(--command);
+        text-shadow: 0.375vw 0 var(--purple);
     }
 
     100% {
-        text-shadow: 0.375vw 0 var(--democracy);
+        text-shadow: 0.375vw 0 var(--red);
     }
 }
 
 @keyframes rainbowScroll {
     0% {
-        scrollbar-color: var(--democracy) #000000;
+        scrollbar-color: var(--red) #000000;
     }
 
     16.67% {
-        scrollbar-color: var(--horizontality) #000000;
+        scrollbar-color: var(--orange) #000000;
     }
 
     33.33% {
-        scrollbar-color: var(--autonomy) #000000;
+        scrollbar-color: var(--yellow) #000000;
     }
 
     50% {
-        scrollbar-color: var(--property) #000000;
+        scrollbar-color: var(--green) #000000;
     }
 
     66.67% {
-        scrollbar-color: var(--hierarchy) #000000;
+        scrollbar-color: var(--blue) #000000;
     }
 
     83.33% {
-        scrollbar-color: var(--command) #000000;
+        scrollbar-color: var(--purple) #000000;
     }
 
     100% {
-        scrollbar-color: var(--democracy) #000000;
+        scrollbar-color: var(--red) #000000;
     }
 }
 
 @keyframes rainbowCard {
     0% {
-        background-color: var(--democracyDark);
+        background-color: var(--redDark);
     }
 
     16.67% {
-        background-color: var(--horizontalityDark);
+        background-color: var(--orangeDark);
     }
 
     33.33% {
-        background-color: var(--autonomyDark);
+        background-color: var(--orangeDark);
     }
 
     50% {
-        background-color: var(--propertyDark);
+        background-color: var(--greenDark);
     }
 
     66.67% {
-        background-color: var(--hierarchyDark);
+        background-color: var(--blueDark);
     }
 
     83.33% {
-        background-color: var(--commandDark);
+        background-color: var(--purpleDark);
     }
 
     100% {
-        background-color: var(--democracyDark);
+        background-color: var(--redDark);
     }
 }
 
 @keyframes rainbowBackground {
     0% {
-        background: var(--democracyDarker);
+        background: var(--redDarker);
     }
 
     16.67% {
-        background: var(--horizontalityDarker);
+        background: var(--orangeDarker);
     }
 
     33.33% {
-        background: var(--autonomyDarker);
+        background: var(--yellowDarker);
     }
 
     50% {
-        background: var(--propertyDarker);
+        background: var(--greenDarker);
     }
 
     66.67% {
-        background: var(--hierarchyDarker);
+        background: var(--blueDarker);
     }
 
     83.33% {
-        background: var(--commandDarker);
+        background: var(--purpleDarker);
     }
 
     100% {
-        background: var(--democracyDarker);
+        background: var(--redDarker);
     }
 }
 
