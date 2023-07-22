@@ -147,12 +147,27 @@ li {
 
 .corner:hover {
     transform: scale(1.05);
+    filter: brightness(1.25);
+}
+
+.socialsicon {
+    height: 4vw;
+    width: 4vw;
+    margin: 0 1vw;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: 0.1s ease-in-out;
+}
+
+.socialsicon:hover {
+    scale: 1.1;
 }
 
 #question {
     background-color: #202020;
     font-size: 2vw;
-    padding: 2vw;
+    padding: 3vw;
     width: 60vw;
     min-height: 20vh;
     display: grid;
@@ -167,18 +182,19 @@ li {
     text-align: center;
     font-family: futura;
     font-size: 2vw;
-    padding: 1vw;
-    width: 40vw;
-    margin: 2vh auto;
+    padding: 0.75vw;
+    width: 35vw;
+    margin: 1vh auto;
     animation: var(--card);
     border-style: none;
     cursor: pointer;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), calc(100% - 2vw) 100%, 0 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.75vw), calc(100% - 1.75vw) 100%, 0 100%, 0 0);
     transition: 0.2s linear;
 }
 
 .button:hover {
-    transform: scale(1.05);
+    transform: scale(1.025) translate(0.75vw);
+    filter: brightness(1.25);
 }
 
 .backButton {
@@ -187,18 +203,19 @@ li {
     text-align: center;
     font-family: futura;
     font-size: 1.5vw;
-    padding: 1vw;
+    padding: 0.5vw;
     width: 15vw;
-    margin: 2vh auto;
+    margin: 1vh auto;
     background-color: #202020;
     border-style: none;
     cursor: pointer;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 1.5vw 100%, 0 calc(100% - 1.5vw));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 1vw 100%, 0 calc(100% - 1vw));
     transition: 0.2s linear;
 }
 
 .backButton:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) translate(-0.25vw);
+    filter: brightness(1.25);
 }
 
 #results {
@@ -338,7 +355,7 @@ li {
 }
 
 .github-corner:hover .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
+    animation: octocat-wave 0.5s linear;
 }
 
 @keyframes octocat-wave {
@@ -359,12 +376,109 @@ li {
     }
 }
 
-@media (max-width: 800px) {
-    .github-corner:hover .octo-arm {
-        animation: none;
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 12vw;
+        text-shadow: 0 0 8vw var(--shadow);
     }
 
-    .github-corner .octo-arm {
-        animation: octocat-wave 560ms ease-in-out;
+    h2 {
+        font-size: 4vw;
+        margin: 2vh;
+        text-shadow: 0 0 1vw var(--shadow);
+    }
+
+    p {
+        margin: 1vw;
+        font-size: 2.5vw;
+        text-shadow: 0 0 0.5vw var(--shadow);
+    }
+
+    li {
+        margin: 0;
+        text-align: left;
+        font-size: 2vw;
+        text-shadow: 0 0 0.5vw var(--shadow);
+    }
+
+    .capitalLetter {
+        font-size: 14vw;
+    }
+
+    .explanation {
+        animation: var(--card);
+        padding: 3vw;
+        width: 80vw;
+        margin: 1vh auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2vw;
+        clip-path: polygon(4vw 0, 100% 0, 100% calc(100% - 4vw), calc(100% - 4vw) 100%, 0 100%, 0 4vw);
+        align-items: center;
+    }
+
+    .explanationQuadrant {
+        filter: drop-shadow(0 0 2vw var(--shadow));
+    }
+
+    #hexagon {
+        width: 100%;
+    }
+
+    .corner {
+        font-size: 3vw;
+        margin: 1vh auto;
+        width: 80%;
+        padding: 2vw;
+        clip-path: polygon(2vw 0, 100% 0, 100% calc(100% - 2vw), calc(100% - 2vw) 100%, 0 100%, 0 2vw);
+    }
+
+    .button {
+        font-size: 5vw;
+        padding: 5vw;
+        width: 70vw;
+        margin: 2vh auto;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), calc(100% - 4vw) 100%, 0 100%, 0 0);
+    }
+
+    .socialsicon {
+        height: 12vw;
+        width: 12vw;
+        margin: 0 2vw;
+    }
+
+    .socialsicon:hover {
+        scale: 1.1;
+    }
+
+    .footer {
+        font-size: 6vw;
+    }
+
+    #question {
+        font-size: 6vw;
+        padding: 6vw;
+        width: 80vw;
+        min-height: 16vh;
+        margin: 1vh auto;
+        clip-path: polygon(2vw 0, 100% 0, 100% calc(100% - 2vw), calc(100% - 2vw) 100%, 0 100%, 0 2vw);
+    }
+
+    #questionNumber {
+        font-size: 8vw;
+    }
+
+    .backButton {
+        font-size: 5vw;
+        padding: 2vw;
+        width: 30vw;
+        margin: 1vh auto;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 3vw 100%, 0 calc(100% - 3vw));
+    }
+
+    #results {
+        width: 80vw;
+        clip-path: polygon(8vw 0, 100% 0, 100% calc(100% - 8vw), calc(100% - 8vw) 100%, 0 100%, 0 8vw);
     }
 }

@@ -9,7 +9,8 @@
     <meta property="og:site_name" content="quark88.github.io/polithex">
     <meta property="og:title" content="PolitHex">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Short, easy and universal political test. Find your position on the political landscape!">
+    <meta property="og:description"
+        content="Short, easy and universal political test. Find your position on the political landscape!">
     <meta property="og:url" content="https://quark88.github.io/polithex/">
     <meta property="og:image" content="https://quark88.github.io/polithex/embed-icon.png">
     <meta property="og:image:width" content="512">
@@ -34,7 +35,15 @@
     <button class="button" style="background-color: #c02000!important;" onclick="answer(-1)">Strongly Disagree</button>
     <button class="backButton" onclick="prevQuestion()">Back</button>
     <div style="height: 16vh;"></div>
-    <p>Quark 2023</p>
+    <p class="footer">
+        <a target="_blank" href="https://github.com/QUARK88">Quark 2023</a>
+    </p>
+    <div class="svgholder">
+        <img src="discord.svg" class="socialsicon"
+            onclick="navigator.clipboard.writeText('realquark');confirm('Discord tag copied!');">
+        <a target="_blank" href="https://www.reddit.com/user/QK_QUARK88"><img src="reddit.svg" class="socialsicon"></a>
+        <a target="_blank" href="https://twitter.com/RenaudBeaulieuQ"><img src="twitter.svg" class="socialsicon"></a>
+    </div>
 </body>
 <script>
     function index() {
@@ -91,9 +100,16 @@
             answers.pop()
         }
     }
+    /*if (location.search == "?short") {
+
+        fetch("short.json")
+            .then(response => response.json())
+            .then(data => parseQuestions(data))
+    } else {*/
     fetch("questions.json")
         .then(response => response.json())
         .then(data => parseQuestions(data))
+    /*}*/
 </script>
 
 </html>
