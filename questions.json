@@ -25,9 +25,29 @@
         "a": "hier"
     },
     {
+        "q": "Caste system is not bad.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "All unions and other labor organizations not affiliated with the state or government should be banned.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
+        "q": "Monarchy is best form of governance.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
         "q": "Ideally, politicians would not exist.",
         "w": -1,
         "a": "hier"
+    },
+    {
+        "q": "The hiring and firing of workers should not be down to the whims of bosses.",
+        "w": 1,
+        "a": "hori"
     },
     {
         "q": "Natural resources belong to whoever found them first and did the required prospecting.",
@@ -35,13 +55,23 @@
         "a": "prop"
     },
     {
-        "q": "Private investors and speculators play an essential role in the economy.",
+        "q": "Ideal system would allow individuals to voluntarily enter into slave contracts.",
+        "w": -1,
+        "a": "hori"
+    },
+    {
+        "q": "World would be much better place without private productive property.",
+        "w": -1,
+        "a": "prop"
+    },
+    {
+        "q": "Private investors and speculators are needed in the modern economy.",
         "w": 1,
         "a": "prop"
     },
     {
-        "q": "Landlords have an important role to play by providing housing for people who can't afford to buy.",
-        "w": 1,
+        "q": "Landlords should not exist.",
+        "w": -1,
         "a": "prop"
     },
     {
@@ -70,7 +100,7 @@
         "a": "auto"
     },
     {
-        "q": "If people wish to sell their organs, they should be permitted to.",
+        "q": "An individual should be allowed to do whatever they want with their own body.",
         "w": 1,
         "a": "auto"
     },
@@ -85,7 +115,7 @@
         "a": "auto"
     },
     {
-        "q": "Economic competition corrupts people's behavior.",
+        "q": "Small buisness owners are not any better than big buisness owners and shareholders.",
         "w": -1,
         "a": "auto"
     },
@@ -110,29 +140,19 @@
         "a": "hori"
     },
     {
-        "q": "Anarchy is simply impossible and should not be strived for.",
-        "w": -1,
-        "a": "hori"
-    },
-    {
         "q": "Worker cooperatives are not any better than traditional firms.",
         "w": -1,
         "a": "hori"
     },
     {
-        "q": "People's basic needs should be provided for free.",
+        "q": "I emphasize the absolute priority of self-interest.",
         "w": 1,
-        "a": "demo"
+        "a": "auto"
     },
     {
-        "q": "People have the potential to be fully altruistic, but capitalism makes people selfish.",
+        "q": "A classless society is a desirable end goal.",
         "w": 1,
-        "a": "demo"
-    },
-    {
-        "q": "A communist society is a desirable end goal.",
-        "w": 1,
-        "a": "demo"
+        "a": "hori"
     },
     {
         "q": "More laws should be determined by referendums.",
@@ -141,11 +161,6 @@
     },
     {
         "q": "Tyranny of the majority is a legitimate concern.",
-        "w": -1,
-        "a": "demo"
-    },
-    {
-        "q": "Equality of outcome is a dangerous goal to pursue.",
         "w": -1,
         "a": "demo"
     },
@@ -165,12 +180,173 @@
         "a": "comm"
     },
     {
+        "q": "Sometimes state needs to intervene for greater good.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
         "q": "Education should be state-run and mandatory to ensure quality education for all children.",
         "w": 1,
         "a": "comm"
     },
     {
+        "q": "Workers should negotiate for wages independently not collectively.",
+        "w": -1,
+        "a": "demo"
+    },
+    {
+        "q": "All workplaces should be unionized.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "Slave labor is justified if its productive enough.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "Without property rights, there are no rights at all.",
+        "w": 1,
+        "a": "prop"
+    },
+    {
         "q": "State welfare programs should be replaced by charity or mutual aid.",
+        "w": -1,
+        "a": "comm"
+    },
+    {
+        "q": "Large scale organisations can increase efficiency.",
+        "w": -1,
+        "a": "hori"
+    },
+    {
+        "q": "Decentral planning is good.",
+        "w": 1,
+        "a": "hori"
+    },
+    {
+        "q": "The economy should be organized by profession groups performing their function.",
+        "w": -1,
+        "a": "hori"
+    },
+    {
+        "q": "Foreign investments are to be welcomed.",
+        "w": 1,
+        "a": "prop"
+    },
+    {
+        "q": "Authorities should not be questionned as long as they provide stability.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "Workers deserve a greater part of what they create.",
+        "w": 1,
+        "a": "hori"
+    },
+    {
+        "q": "Collective agriculture is much better than private or individual one.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "It's wasteful to have so many different brands of the same good.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "Bureaucracy is both inefficient and against liberty.",
+        "w": -1,
+        "a": "hier"
+    },
+    {
+        "q": "We must make sure everyone has enough to live, even if that negatively affects the economy.",
+        "w": 1,
+        "a": "demo"
+    },  
+    {
+        "q": "The state should control all aspects of the economy.",
+        "w": 1,
+        "a": "comm"
+    }, 
+    {
+        "q": "The freer the market, the freer the people.",
+        "w": 1,
+        "a": "auto"
+    },  
+    {
+        "q": "More people should aim to be self employed.",
+        "w": 1,
+        "a": "auto"
+    }, 
+    {
+        "q": "All workers should own the means of production",
+        "w": 1,
+        "a": "demo"     
+    },   
+    {
+        "q": "Workers should have more of a say in the workplace.",
+        "w": 1,
+        "a": "demo"
+    },  
+    {
+        "q": "Prices should be determined by supply and demand.",
+        "w": 1,
+        "a": "prop"
+    }, 
+    {
+        "q": "All workplaces should be unionized.",
+        "w": 1,
+        "a": "demo"
+    },   
+    {
+        "q": "People who choose not to work should not expect support from society.",
+        "w": -1,
+        "a": "hori"
+    },   
+    {
+        "q": "People should be economically deterred from spending their money on useless products, by banning them.",
+        "w": 1,
+        "a": "comm"
+    },  
+    {
+        "q": "The economy should be organised on the local level.",
+        "w": 1,
+        "a": "hori"
+    },  
+    {
+        "q": "The right to start a business is fundamental to any thriving economy.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
+        "q": "Everyone should be provided with a job.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "In times of crisis, safety takes precedence over liberty.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "The “Right to Travel” does not exist",
+        "w": -1,
+        "a": "hori"
+    },
+    
+    {
+        "q": "Certain services like roads and public transportation should be run by the state.",
+        "w": 1,
+        "a": "comm"
+    },
+        {
+        "q": "The economy should be centrally planned.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
+        "q": "There should be no central bank.",
         "w": -1,
         "a": "comm"
     },
