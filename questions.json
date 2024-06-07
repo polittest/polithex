@@ -111,8 +111,8 @@
     },
     {
         "q": "People are dumb and limits should be put on dangerous actions to protect them.",
-        "w": -1,
-        "a": "auto"
+        "w": 1,
+        "a": "hier"
     },
     {
         "q": "Small buisness owners are not any better than big buisness owners and shareholders.",
@@ -220,7 +220,7 @@
         "a": "hori"
     },
     {
-        "q": "Decentral planning is good.",
+        "q": "Decentral economic planning is good.",
         "w": 1,
         "a": "hori"
     },
@@ -280,17 +280,72 @@
         "a": "auto"
     }, 
     {
-        "q": "All workers should own the means of production",
+        "q": "All workers should own the means of production.",
         "w": 1,
         "a": "demo"     
     },   
+
+    
+    {
+        "q": "Wealth accumulation leads to the creation of an oppressive class system.",
+        "w": 1,
+        "a": "demo"
+    },  
+    {
+        "q": "Firearms should be available to the general public.",
+        "w": -1,
+        "a": "hier"
+    }, 
+    {
+        "q": "There is nothing unethical in wage labour.",
+        "w": -1,
+        "a": "hori"
+    },  
+    {
+        "q": " An individual can never be truly separate from society.",
+        "w": -1,
+        "a": "auto"
+    }, 
+    {
+        "q": "People should be allowed to do whatever they want in their own yard.",
+        "w": 1,
+        "a": "auto"     
+    },   
+
+
+    {
+        "q": "Moneyless economy is something we should strive for.",
+        "w": 1,
+        "a": "demo"
+    },  
+    {
+        "q": "Usuries and other forms of private loans are nothing good, our economy should go away from them.",
+        "w": -1,
+        "a": "prop"
+    }, 
+    {
+        "q": "There is nothing unethical in wage labour.",
+        "w": -1,
+        "a": "hori"
+    },  
+    {
+        "q": "An individual can never be truly separate from society.",
+        "w": -1,
+        "a": "auto"
+    }, 
+    {
+        "q": "People should be allowed to do whatever they want in their own yard.",
+        "w": 1,
+        "a": "auto"     
+    },   
+    
     {
         "q": "Workers should have more of a say in the workplace.",
         "w": 1,
         "a": "demo"
     },  
     {
-        "q": "Prices should be determined by supply and demand.",
+        "q": "The prices of goods should be set by the market.",
         "w": 1,
         "a": "prop"
     }, 
@@ -320,7 +375,7 @@
         "a": "auto"
     },
     {
-        "q": "Everyone should be provided with a job.",
+        "q": "Everyone should be provided with a job if they want.",
         "w": 1,
         "a": "demo"
     },
