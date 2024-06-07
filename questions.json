@@ -280,7 +280,7 @@
         "a": "auto"
     }, 
     {
-        "q": "All workers should own the means of production.",
+        "q": "Workers should seize the means of production.",
         "w": 1,
         "a": "demo"     
     },   
@@ -302,7 +302,7 @@
         "a": "hori"
     },  
     {
-        "q": " An individual can never be truly separate from society.",
+        "q": "An individual can never be truly separate from society.",
         "w": -1,
         "a": "auto"
     }, 
@@ -311,15 +311,19 @@
         "w": 1,
         "a": "auto"     
     },   
-
+{
+        "q": "Just because something is consensual doesn't mean it is right.",
+        "w": -1,
+        "a": "auto"     
+    },   
 
     {
-        "q": "Moneyless economy is something we should strive for.",
+        "q": "A nonmonetary economy is something we should strive for.",
         "w": 1,
         "a": "demo"
     },  
     {
-        "q": "Usuries and other forms of private loans are nothing good, our economy should go away from them.",
+        "q": "Usuries and other forms of private loans are nothing good.",
         "w": -1,
         "a": "prop"
     }, 
@@ -329,14 +333,14 @@
         "a": "hori"
     },  
     {
-        "q": "An individual can never be truly separate from society.",
+        "q": "The hiring and firing of workers should not be down to the whims of bosses.",
         "w": -1,
-        "a": "auto"
+        "a": "hier"
     }, 
     {
-        "q": "People should be allowed to do whatever they want in their own yard.",
+        "q": "Top down structures for organisations work best.",
         "w": 1,
-        "a": "auto"     
+        "a": "hier"     
     },   
     
     {
@@ -375,7 +379,7 @@
         "a": "auto"
     },
     {
-        "q": "Everyone should be provided with a job if they want.",
+        "q": "Employment should be guaranteed.",
         "w": 1,
         "a": "demo"
     },
@@ -402,6 +406,11 @@
     },
     {
         "q": "There should be no central bank.",
+        "w": -1,
+        "a": "comm"
+    },
+    {
+        "q": "There should be no fiat currency.",
         "w": -1,
         "a": "comm"
     },
