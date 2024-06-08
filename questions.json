@@ -205,11 +205,6 @@
         "a": "hier"
     },
     {
-        "q": "Without property rights, there are no rights at all.",
-        "w": 1,
-        "a": "prop"
-    },
-    {
         "q": "State welfare programs should be replaced by charity or mutual aid.",
         "w": -1,
         "a": "comm"
@@ -217,11 +212,6 @@
     {
         "q": "Large scale organisations can increase efficiency.",
         "w": -1,
-        "a": "hori"
-    },
-    {
-        "q": "Decentral economic planning is good.",
-        "w": 1,
         "a": "hori"
     },
     {
@@ -420,4 +410,3 @@
         "a": "comm"
     }
 ]
-
