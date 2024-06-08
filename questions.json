@@ -359,9 +359,9 @@
         "a": "demo"
     },   
     {
-        "q": "People who choose not to work should not expect support from society.",
-        "w": -1,
-        "a": "hori"
+        "q": "Sometimes you have to sacrifice the good of an individual for the good of collective.",
+        "w": 1,
+        "a": "demo"
     },   
     {
         "q": "People should be economically deterred from spending their money on useless products, by banning them.",
@@ -420,3 +420,4 @@
         "a": "comm"
     }
 ]
+
