@@ -16,8 +16,8 @@
     },
         {
         "q": "There should be no managers with authority over workers.",
-        "w": -1,
-        "a": "hier"
+        "w": 1,
+        "a": "hori"
     },
     {
         "q": "Prisoners should be forced to work to repay their debt to society.",
@@ -51,8 +51,8 @@
     },
     {
         "q": "The hiring and firing of workers should not be down to the whims of bosses.",
-        "w": 1,
-        "a": "hori"
+        "w": -1,
+        "a": "hier"
     },
     {
         "q": "Natural resources belong to whoever found them first and did the required prospecting.",
@@ -75,7 +75,7 @@
         "a": "prop"
     },
     {
-        "q": "Landlords should not exist.",
+        "q": "Landlords are unnecessary to society.",
         "w": -1,
         "a": "prop"
     },
@@ -250,7 +250,7 @@
         "a": "demo"
     },
     {
-        "q": "Bureaucracy is both inefficient and against liberty.",
+        "q": "Bureaucracy is ineffective and unnecessary evil.",
         "w": -1,
         "a": "hier"
     },
@@ -296,11 +296,7 @@
         "w": -1,
         "a": "hori"
     },  
-    {
-        "q": "An individual can never be truly separate from society.",
-        "w": -1,
-        "a": "auto"
-    }, 
+    
     {
         "q": "People should be allowed to do whatever they want in their own yard.",
         "w": 1,
@@ -332,22 +328,13 @@
         "w": -1,
         "a": "hier"
     }, 
-    {
-        "q": "Top down structures for organisations work best.",
-        "w": 1,
-        "a": "hier"     
-    },   
+
     
     {
         "q": "Workers should have more of a say in the workplace.",
-        "w": 1,
-        "a": "demo"
-    },  
-    {
-        "q": "The prices of goods should be set by the market.",
-        "w": 1,
-        "a": "prop"
-    }, 
+        "w": -1,
+        "a": "hier"
+    },
     {
         "q": "All workplaces should be unionized.",
         "w": 1,
@@ -395,9 +382,9 @@
         "a": "comm"
     },
         {
-        "q": "The economy should be centrally planned.",
+        "q": "The economy needs centralisation.",
         "w": 1,
-        "a": "comm"
+        "a": "hier"
     },
     {
         "q": "There should be no central bank.",
