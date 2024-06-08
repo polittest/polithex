@@ -125,11 +125,6 @@
         "a": "hier"
     },
     {
-        "q": "Small buisness owners are not any better than big buisness owners and shareholders.",
-        "w": -1,
-        "a": "auto"
-    },
-    {
         "q": "Nobody should be restricted from using abandoned property.",
         "w": 1,
         "a": "hori"
@@ -255,7 +250,7 @@
         "a": "demo"
     },
     {
-        "q": "Bureaucracy is ineffective and unnecessary evil.",
+        "q": "We should reduce bureaucracy a lot.",
         "w": -1,
         "a": "hier"
     },
@@ -328,6 +323,7 @@
         "w": -1,
         "a": "hori"
     },  
+
     {
         "q": "The hiring and firing of workers should not be down to the whims of bosses.",
         "w": -1,
@@ -336,7 +332,7 @@
 
     
     {
-        "q": "Workers should have more of a say in the workplace.",
+        "q": "Workplace democracy is a good idea.",
         "w": -1,
         "a": "hier"
     },
