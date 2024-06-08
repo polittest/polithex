@@ -14,6 +14,11 @@
         "w": 1,
         "a": "hier"
     },
+        {
+        "q": "There should be no managers with authority over workers.",
+        "w": -1,
+        "a": "hier"
+    },
     {
         "q": "Prisoners should be forced to work to repay their debt to society.",
         "w": 1,
