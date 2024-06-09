@@ -25,6 +25,11 @@
         "a": "hier"
     },
     {
+        "q": "Neither police nor private security firms.",
+        "w": 1,
+        "a": "hori"
+    },
+    {
         "q": "At some point, the state will no longer be necessary.",
         "w": -1,
         "a": "hier"
@@ -225,14 +230,34 @@
         "a": "hori"
     },
     {
+        "q": "Prisons are oppressive and antiquated institutions that need to be abolished.",
+        "w": -1,
+        "a": "hier"
+    },
+    {
+        "q": "”From each according to his ability, to each according to his needs“ is a good principle.",
+        "w": 1,
+        "a": "dem"
+    },
+    {
         "q": "Foreign investments are to be welcomed.",
         "w": 1,
         "a": "prop"
     },
     {
+        "q": "The government should be capable of assigning individuals to workplaces.",
+        "w": 1,
+        "a": "comm"
+    },
+    {
         "q": "Authorities should not be questionned as long as they provide stability.",
         "w": 1,
         "a": "hier"
+    },
+    {
+        "q": "Workers should fight in class struggle.",
+        "w": 1,
+        "a": "demo"
     },
     {
         "q": "Workers deserve a greater part of what they create.",
