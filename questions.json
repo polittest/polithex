@@ -45,7 +45,7 @@
         "a": "comm"
     },
     {
-        "q": "Monarchy is best form of governance.",
+        "q": "Monarchy is best form of governance, especially abaolute one.",
         "w": 1,
         "a": "hier"
     },
@@ -66,8 +66,8 @@
     },
     {
         "q": "Ideal system would allow individuals to voluntarily enter into slave contracts.",
-        "w": -1,
-        "a": "hori"
+        "w": 1,
+        "a": "hier"
     },
     {
         "q": "World would be much better place without private productive property.",
@@ -342,11 +342,6 @@
         "q": "Usuries and other forms of private loans are nothing good.",
         "w": -1,
         "a": "prop"
-    }, 
-    {
-        "q": "There is nothing unethical in wage labour.",
-        "w": -1,
-        "a": "hori"
     },  
 
     {
@@ -357,15 +352,10 @@
 
     
     {
-        "q": "Workplace democracy is a good idea.",
+        "q": "Employees should have more say in the workplace.",
         "w": -1,
         "a": "hier"
     },
-    {
-        "q": "All workplaces should be unionized.",
-        "w": 1,
-        "a": "demo"
-    },   
     {
         "q": "Sometimes you have to sacrifice the good of an individual for the good of collective.",
         "w": 1,
@@ -408,7 +398,7 @@
         "a": "comm"
     },
         {
-        "q": "The economy needs centralisation.",
+        "q": "Unitary government is better than federal one.",
         "w": 1,
         "a": "hier"
     },
@@ -419,11 +409,6 @@
     },
     {
         "q": "There should be no fiat currency.",
-        "w": -1,
-        "a": "comm"
-    },
-    {
-        "q": "The state should play a smaller role in the economy.",
         "w": -1,
         "a": "comm"
     }
