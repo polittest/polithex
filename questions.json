@@ -219,11 +219,7 @@
         "w": -1,
         "a": "comm"
     },
-    {
-        "q": "Large scale organisations can increase efficiency.",
-        "w": -1,
-        "a": "hori"
-    },
+    
     {
         "q": "The economy should be organized by profession groups performing their function.",
         "w": -1,
@@ -234,11 +230,7 @@
         "w": -1,
         "a": "hier"
     },
-    {
-        "q": "”From each according to his ability, to each according to his needs“ is a good principle.",
-        "w": 1,
-        "a": "dem"
-    },
+    
     {
         "q": "Foreign investments are to be welcomed.",
         "w": 1,
@@ -344,11 +336,7 @@
         "a": "prop"
     },  
 
-    {
-        "q": "The hiring and firing of workers should not be down to the whims of bosses.",
-        "w": -1,
-        "a": "hier"
-    }, 
+    
 
     
     {
