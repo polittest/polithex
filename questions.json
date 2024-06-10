@@ -25,6 +25,21 @@
         "a": "hier"
     },
     {
+        "q": "We should abolish private property.",
+        "w": -1,
+        "a": "prop"
+    },
+    {
+        "q": "We should abolish private property.",
+        "w": -1,
+        "a": "prop"
+    },
+        {
+        "q": "The state should help the rich more than the poor, because they gave more to society.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
         "q": "Neither police nor private security firms.",
         "w": 1,
         "a": "hori"
@@ -35,7 +50,7 @@
         "a": "hier"
     },
     {
-        "q": "Feudalism and slavery were not such bad as many may think.",
+        "q": "Feudalism and slavery based economy were not as bad as many may think.",
         "w": 1,
         "a": "hier"
     },
@@ -45,7 +60,7 @@
         "a": "comm"
     },
     {
-        "q": "Monarchy is best form of governance, especially abaolute one.",
+        "q": "Monarchism and despotism are best forms of governance.",
         "w": 1,
         "a": "hier"
     },
@@ -80,7 +95,7 @@
         "a": "prop"
     },
     {
-        "q": "Landlords are unnecessary to society.",
+        "q": "Land shouldn't be private.",
         "w": -1,
         "a": "prop"
     },
@@ -111,11 +126,6 @@
     },
     {
         "q": "No individual should ever be required to serve any collective expectation.",
-        "w": 1,
-        "a": "auto"
-    },
-    {
-        "q": "An individual should be allowed to do whatever they want with their own body.",
         "w": 1,
         "a": "auto"
     },
@@ -204,6 +214,7 @@
         "w": -1,
         "a": "demo"
     },
+    
     {
         "q": "All workplaces should have organization(s) representing workers, like unions or worker councils.",
         "w": 1,
@@ -214,11 +225,7 @@
         "w": 1,
         "a": "hier"
     },
-    {
-        "q": "Slave labor is justified if its productive enough.",
-        "w": 1,
-        "a": "hier"
-    },
+   
     {
         "q": "State welfare programs should be replaced by charity or mutual aid.",
         "w": -1,
@@ -227,8 +234,8 @@
     
     {
         "q": "The economy should be organized by profession groups performing their function.",
-        "w": -1,
-        "a": "hori"
+        "w": 1,
+        "a": "hier"
     },
     {
         "q": "Prisons are oppressive and antiquated institutions that need to be abolished.",
@@ -314,7 +321,7 @@
         "a": "hier"
     }, 
     {
-        "q": "There is nothing unethical in wage labour.",
+        "q": "There is nothing wrong in wage labour.",
         "w": -1,
         "a": "hori"
     },  
@@ -344,9 +351,9 @@
         "a": "hier"
     },
     {
-        "q": "Sometimes you have to sacrifice the good of an individual for the good of collective.",
-        "w": 1,
-        "a": "demo"
+        "q": "Sometimes you have to sacrifice the good of an individual for the good of the collective.",
+        "w": -1,
+        "a": "auto"
     },   
     {
         "q": "People should be economically deterred from spending their money on useless products, by banning them.",
