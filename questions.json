@@ -76,7 +76,7 @@
     },
     {
         "q": "Private investors and speculators are needed in the modern economy.",
-        "w": 2,
+        "w": 1,
         "a": "prop"
     },
     {
@@ -247,7 +247,7 @@
         "a": "hier"
     },
     {
-        "q": "Workers should fight in class struggle.",
+        "q": "Workers should engage in class struggle.",
         "w": 1,
         "a": "demo"
     },
@@ -263,8 +263,8 @@
     },
     {
         "q": "It's wasteful to have so many different brands of the same good.",
-        "w": 1,
-        "a": "demo"
+        "w": -1,
+        "a": "auto"
     },
     {
         "q": "We should reduce bureaucracy a lot.",
@@ -326,7 +326,7 @@
     },  
     {
         "q": "Usuries and other forms of private loans are nothing good.",
-        "w": -2,
+        "w": -1,
         "a": "prop"
     },  
 
