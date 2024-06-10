@@ -205,9 +205,14 @@
         "a": "demo"
     },
     {
-        "q": "All workplaces should be unionized.",
+        "q": "All workplaces should have organization(s) representing workers, like unions or worker councils.",
         "w": 1,
         "a": "demo"
+    },
+    {
+        "q": "Slave labor is justified if its productive enough.",
+        "w": 1,
+        "a": "hier"
     },
     {
         "q": "Slave labor is justified if its productive enough.",
