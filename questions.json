@@ -76,7 +76,7 @@
     },
     {
         "q": "Private investors and speculators are needed in the modern economy.",
-        "w": 1,
+        "w": 2,
         "a": "prop"
     },
     {
@@ -319,20 +319,14 @@
         "w": 1,
         "a": "auto"     
     },   
-{
-        "q": "Just because something is consensual doesn't mean it is right.",
-        "w": -1,
-        "a": "auto"     
-    },   
-
-    {
+  {
         "q": "A nonmonetary economy is something we should strive for.",
         "w": 1,
         "a": "demo"
     },  
     {
         "q": "Usuries and other forms of private loans are nothing good.",
-        "w": -1,
+        "w": -2,
         "a": "prop"
     },  
 
