@@ -29,11 +29,7 @@
         "w": -1,
         "a": "prop"
     },
-    {
-        "q": "We should abolish private property.",
-        "w": -1,
-        "a": "prop"
-    },
+    
         {
         "q": "The state should help the rich more than the poor, because they gave more to society.",
         "w": 1,
@@ -270,8 +266,8 @@
     },
     {
         "q": "Collective agriculture is much better than private or individual one.",
-        "w": 1,
-        "a": "demo"
+        "w": -1,
+        "a": "prop"
     },
     {
         "q": "It's wasteful to have so many different brands of the same good.",
@@ -360,11 +356,7 @@
         "w": 1,
         "a": "comm"
     },  
-    {
-        "q": "The economy should be organised on the local level.",
-        "w": 1,
-        "a": "hori"
-    },  
+    
     {
         "q": "The right to start a business is fundamental to any thriving economy.",
         "w": 1,
