@@ -14,6 +14,11 @@
         "w": 1,
         "a": "hier"
     },
+    {
+        "q": "Economic democracy is a good idea.",
+        "w": 1,
+        "a": "demo"
+    },
            
     {
         "q": "Prisoners should be forced to work to repay their debt to society.",
@@ -21,8 +26,8 @@
         "a": "hier"
     },
     {
-        "q": "We should abolish private property.",
-        "w": -1,
+        "q": "Subcription based personal good is an idea worth trying.",
+        "w": 1,
         "a": "prop"
     },
     
@@ -76,18 +81,14 @@
         "w": 1,
         "a": "hier"
     },
-    {
-        "q": "World would be much better place without private productive property.",
-        "w": -1,
-        "a": "prop"
-    },
+    
     {
         "q": "Private investors and speculators are needed in the modern economy.",
         "w": 1,
         "a": "prop"
     },
     {
-        "q": "Land shouldn't be private.",
+        "q": "Land shouldn't be held private.",
         "w": -1,
         "a": "prop"
     },
@@ -334,7 +335,7 @@
         "a": "demo"
     },  
     {
-        "q": "Usuries and other forms of private loans are nothing good.",
+        "q": "People who gain wealth by capital or property they already own, rather than by thier own labour, can be considered parasites to the society.",
         "w": -1,
         "a": "prop"
     },  
@@ -343,7 +344,7 @@
 
     
     {
-        "q": "We should make society as voluntary as possible.",
+        "q": "We should reduce the coercion as much as possible.",
         "w": 1,
         "a": "auto"
     },
