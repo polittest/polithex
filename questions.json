@@ -14,11 +14,7 @@
         "w": 1,
         "a": "hier"
     },
-        {
-        "q": "There should be no managers with authority over workers.",
-        "w": 1,
-        "a": "hori"
-    },
+           
     {
         "q": "Prisoners should be forced to work to repay their debt to society.",
         "w": 1,
@@ -46,7 +42,7 @@
         "a": "hier"
     },
     {
-        "q": "Feudalism and slavery based economy were not as bad as many may think.",
+        "q": "Feudalism was not as bad as many think.",
         "w": 1,
         "a": "hier"
     },
@@ -57,7 +53,7 @@
     },
     {
         "q": "Monarchism and despotism are best forms of governance.",
-        "w": 999,
+        "w": 1,
         "a": "hier"
     },
     {
@@ -140,6 +136,11 @@
         "w": 1,
         "a": "hori"
     },
+        {
+        "q": "Workers' self-management is a good principle.",
+        "w": 1,
+        "a": "hori"
+    },
     {
         "q": "Monopolies, state or otherwise, should never be allowed to exist.",
         "w": 1,
@@ -212,7 +213,7 @@
     },
     
     {
-        "q": "All workplaces should have organization(s) representing workers, like unions or worker councils.",
+        "q": "All workplaces should have organization(s) representing workers, for example unions or worker councils.",
         "w": 1,
         "a": "demo"
     },
@@ -342,9 +343,9 @@
 
     
     {
-        "q": "Employees should have more say in the workplace.",
-        "w": -1,
-        "a": "hier"
+        "q": "We should make society as voluntary as possible.",
+        "w": 1,
+        "a": "auto"
     },
     {
         "q": "Sometimes you have to sacrifice the good of an individual for the good of the collective.",
