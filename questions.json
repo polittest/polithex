@@ -15,7 +15,17 @@
         "a": "hier"
     },
     {
+        "q": "Centralised ownership is preferred to common ownership.",
+        "w": -1,
+        "a": "hori"
+    },
+    {
         "q": "Economic democracy is a good idea.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "State shouldn't own anything.",
         "w": 1,
         "a": "demo"
     },
@@ -33,6 +43,11 @@
     
         {
         "q": "The state should help the rich more than the poor, because they gave more to society.",
+        "w": 1,
+        "a": "hier"
+    },
+            {
+        "q": "Some roles and jobs should be hereditary.",
         "w": 1,
         "a": "hier"
     },
@@ -152,11 +167,7 @@
         "w": 1,
         "a": "hori"
     },
-    {
-        "q": "Corporations and the state are evils which perpetuate one another.",
-        "w": 1,
-        "a": "hori"
-    },
+    
     {
         "q": "Worker cooperatives are not any better than traditional firms.",
         "w": -1,
@@ -273,8 +284,8 @@
     },
     {
         "q": "It's wasteful to have so many different brands of the same good.",
-        "w": -1,
-        "a": "auto"
+        "w": 1,
+        "a": "demo"
     },
     {
         "q": "We should reduce bureaucracy a lot.",
@@ -349,7 +360,7 @@
         "a": "auto"
     },
     {
-        "q": "Sometimes you have to sacrifice the good of an individual for the good of the collective.",
+        "q": "Sometimes you have to sacrifice the good of an individual for the greater good.",
         "w": -1,
         "a": "auto"
     },   
@@ -386,7 +397,7 @@
         "a": "comm"
     },
         {
-        "q": "Unitary government is better than federal one.",
+        "q": "Unitary government is better than a federal one.",
         "w": 1,
         "a": "hier"
     },
