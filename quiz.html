@@ -28,23 +28,19 @@
     </h1>
     <h2 id="questionNumber"></h2>
     <div id="question"></div>
-    <button class="button" style="background-color: #008000!important;" onclick="answer(1)">Strongly Agree</button>
+    <button class="button" style="background-color: #00a050!important;" onclick="answer(1)">Strongly Agree</button>
     <button class="button" style="background-color: #40a000!important;" onclick="answer(0.5)">Agree</button>
-    <button class="button" style="background-color: #a0a000!important;" onclick="answer(0.25)">Maybe</button>
     <button class="button" style="background-color: #c0a000!important;" onclick="answer(0)">Neutral / Not sure</button>
     <button class="button" style="background-color: #c06000!important;" onclick="answer(-0.5)">Disagree</button>
-    <button class="button" style="background-color: #c02000!important;" onclick="answer(-1)">Strongly Disagree</button>
+    <button class="button" style="background-color: #c02020!important;" onclick="answer(-1)">Strongly Disagree</button>
+    <br> <button class="button" style="background-color: #a0a000!important;" onclick="answer(0.25)">Maybe</button>
+    <button class="button" style="background-color:  #c03800!important;" onclick="answer(-0.25)">Somewhat disagree</button>
     <button class="backButton" onclick="prevQuestion()">Back</button>
     <div style="height: 16vh;"></div>
     <p class="footer">
         Quark 2023 <br> Mich 2024
     </p>
-    <div class="svgholder">
-        <img src="discord.svg" class="socialsicon"
-            onclick="navigator.clipboard.writeText('realquark');confirm('Discord tag copied!');">
-        <a target="_blank" href="https://www.reddit.com/user/QK_QUARK88"><img src="reddit.svg" class="socialsicon"></a>
-        <a target="_blank" href="https://x.com/RenaudBeaulieuQ"><img src="x.svg" class="socialsicon"></a>
-    </div>
+    
 </body>
 <script>
     function index() {
