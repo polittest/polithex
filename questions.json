@@ -4,16 +4,7 @@
         "w": 1,
         "a": "hier"
     },
-    {
-        "q": "Test -2.",
-        "w": -2,
-        "a": "hier"
-    },
-    {
-        "q": "Test 4.",
-        "w": 4,
-        "a": "hier"
-    },
+
     {
         "q": "It is to be expected to see hierarchy remain, as anyone can be better or worse than others.",
         "w": 1,
@@ -292,6 +283,7 @@
         "w": -1,
         "a": "prop"
     },
+    
     {
         "q": "It's wasteful to have so many different brands of the same good.",
         "w": 1,
@@ -309,7 +301,7 @@
     },  
     {
         "q": "The state should control all aspects of the economy.",
-        "w": 1,
+        "w": 2,
         "a": "comm"
     }, 
     {
@@ -356,8 +348,8 @@
         "a": "demo"
     },  
     {
-        "q": "People who gain wealth by capital or property they already own, rather than by thier own labour, can be considered parasites to the society.",
-        "w": -1,
+        "q": "People who gain wealth by capital or property they already own, rather than by labour, can be considered parasites to the society and labourers.",
+        "w": -2,
         "a": "prop"
     },  
 
