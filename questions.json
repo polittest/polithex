@@ -66,11 +66,7 @@
         "w": -1,
         "a": "hier"
     },
-    {
-        "q": "Feudalism was not as bad as many think.",
-        "w": 1,
-        "a": "hier"
-    },
+    
     {
         "q": "All unions and other labor organizations not affiliated with the state or government should be banned.",
         "w": 1,
@@ -103,19 +99,24 @@
     },
     
     {
-        "q": "Private investors and speculators are needed in the modern economy.",
+        "q": "Private investors and speculators are needed for efficient economy.",
         "w": 1,
         "a": "prop"
     },
     {
-        "q": "Land shouldn't be held private.",
-        "w": -1,
-        "a": "prop"
+        "q": "Land shouldn't be rented.",
+        "w": 1,
+        "a": "hori"
     },
     {
         "q": "Theft can never be justified.",
         "w": 1,
         "a": "prop"
+    },
+ {
+        "q": "Degrowth is a valid approach to economy.",
+        "w": 1,
+        "a": "demo"
     },
     {
         "q": "Inheritance is not a legitimate form of wealth.",
@@ -275,7 +276,7 @@
     },
     {
         "q": "Workers should engage in class struggle.",
-        "w": 2,
+        "w": 1,
         "a": "demo"
     },
     {
@@ -306,7 +307,7 @@
     },  
     {
         "q": "The state should control all aspects of the economy.",
-        "w": 2,
+        "w": 1,
         "a": "comm"
     }, 
     {
