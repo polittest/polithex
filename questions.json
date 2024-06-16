@@ -16,9 +16,9 @@
         "a": "hier"
     },
     {
-        "q": "Centralised ownership is preferred to common ownership.",
-        "w": -1,
-        "a": "hori"
+        "q": "Economy needs some centralised planning by the government.",
+        "w": 1,
+        "a": "comm"
     },
     {
         "q": "Economic democracy is a good idea.",
@@ -27,19 +27,23 @@
     },
     {
         "q": "State shouldn't own anything.",
-        "w": 1,
-        "a": "demo"
+        "w": -1,
+        "a": "comm"
     },
-           
+           {
+        "q": "Free speech should be protected.",
+        "w": -1,
+        "a": "hier"
+    },
     {
         "q": "Prisoners should be forced to work to repay their debt to society.",
         "w": 1,
         "a": "hier"
     },
     {
-        "q": "Subcription based personal good is an idea worth trying.",
+        "q": "We should desocialize production.",
         "w": 1,
-        "a": "prop"
+        "a": "auto"
     },
     
         {
@@ -74,7 +78,7 @@
     },
     {
         "q": "Monarchism and despotism are best forms of governance.",
-        "w": 1,
+        "w": 2,
         "a": "hier"
     },
     {
@@ -143,6 +147,7 @@
         "w": 1,
         "a": "auto"
     },
+
     {
         "q": "People are dumb and limits should be put on dangerous actions to protect them.",
         "w": 1,
@@ -210,7 +215,7 @@
         "a": "comm"
     },
     {
-        "q": "Sometimes state needs to intervene for greater good.",
+        "q": "Sometimes state needs to intervene in the economy for greater good.",
         "w": 1,
         "a": "comm"
     },
@@ -232,7 +237,7 @@
     },
     {
         "q": "Slave labor is justified if its productive enough.",
-        "w": 1,
+        "w": 2,
         "a": "hier"
     },
    
@@ -270,7 +275,7 @@
     },
     {
         "q": "Workers should engage in class struggle.",
-        "w": 1,
+        "w": 2,
         "a": "demo"
     },
     {
@@ -280,14 +285,14 @@
     },
     {
         "q": "Collective agriculture is much better than private or individual one.",
-        "w": -1,
-        "a": "prop"
+        "w": 1,
+        "a": "demo"
     },
     
     {
-        "q": "It's wasteful to have so many different brands of the same good.",
-        "w": 1,
-        "a": "demo"
+        "q": "Economic coordination is needed.",
+        "w": -1,
+        "a": "auto"
     },
     {
         "q": "We should reduce bureaucracy a lot.",
@@ -358,7 +363,7 @@
     
     {
         "q": "We should reduce the coercion as much as possible.",
-        "w": 1,
+        "w": 2,
         "a": "auto"
     },
     {
@@ -371,7 +376,7 @@
         "w": 1,
         "a": "comm"
     },  
-    
+     
     {
         "q": "The right to start a business is fundamental to any thriving economy.",
         "w": 1,
@@ -388,9 +393,14 @@
         "a": "hier"
     },
     {
-        "q": "The “Right to Travel” does not exist",
+        "q": "The “Right to Travel” does not exist.",
         "w": -1,
         "a": "hori"
+    },
+{
+        "q": "We must make sure all economic entities serve the interests of the whole society. ",
+        "w": 1,
+        "a": "demo"
     },
     
     {
