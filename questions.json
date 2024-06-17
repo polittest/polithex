@@ -355,7 +355,7 @@
     },  
     {
         "q": "People who gain wealth by capital or property they already own, rather than by labour, can be considered parasites to the society and labourers.",
-        "w": -2,
+        "w": -1,
         "a": "prop"
     },  
 
@@ -420,7 +420,7 @@
         "a": "comm"
     },
     {
-        "q": "There should be no fiat currency.",
+        "q": "Fiat currency should be replaced/abolished.",
         "w": -1,
         "a": "comm"
     }
