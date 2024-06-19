@@ -25,25 +25,21 @@
         "w": 1,
         "a": "demo"
     },
-    {
-        "q": "State shouldn't own anything.",
-        "w": -1,
-        "a": "comm"
-    },
+
            {
         "q": "Free speech should be protected.",
         "w": -1,
         "a": "hier"
     },
     {
+        "q": "Privacy should be always repected.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
         "q": "Prisoners should be forced to work to repay their debt to society.",
         "w": 1,
         "a": "hier"
-    },
-    {
-        "q": "We should desocialize production.",
-        "w": 1,
-        "a": "auto"
     },
     
         {
@@ -74,7 +70,7 @@
     },
     {
         "q": "Monarchism and despotism are best forms of governance.",
-        "w": 2,
+        "w": 1,
         "a": "hier"
     },
     {
@@ -210,6 +206,11 @@
         "w": 1,
         "a": "comm"
     },
+        {
+        "q": "We should switch from commodity production to production for use.",
+        "w": 1,
+        "a": "comm"
+    },
     {
         "q": "Income tax is a necessary evil, if an evil at all.",
         "w": 1,
@@ -238,7 +239,7 @@
     },
     {
         "q": "Slave labor is justified if its productive enough.",
-        "w": 2,
+        "w": 1,
         "a": "hier"
     },
    
@@ -246,6 +247,11 @@
         "q": "State welfare programs should be replaced by charity or mutual aid.",
         "w": -1,
         "a": "comm"
+    },
+    {
+        "q": "More participatory society would be more ideal.",
+        "w": -1,
+        "a": "hier"
     },
     
     {
@@ -284,11 +290,7 @@
         "w": 1,
         "a": "hori"
     },
-    {
-        "q": "Collective agriculture is much better than private or individual one.",
-        "w": 1,
-        "a": "demo"
-    },
+    
     
     {
         "q": "Economic coordination is needed.",
@@ -320,11 +322,7 @@
         "w": 1,
         "a": "auto"
     }, 
-    {
-        "q": "Workers should seize the means of production.",
-        "w": 1,
-        "a": "demo"     
-    },   
+     
 
     
     {
@@ -350,8 +348,8 @@
     },   
   {
         "q": "A nonmonetary economy is something we should strive for.",
-        "w": 1,
-        "a": "demo"
+        "w": -1,
+        "a": "prop"
     },  
     {
         "q": "People who gain wealth by capital or property they already own, rather than by labour, can be considered parasites to the society and labourers.",
@@ -364,7 +362,7 @@
     
     {
         "q": "We should reduce the coercion as much as possible.",
-        "w": 2,
+        "w": 1,
         "a": "auto"
     },
     {
@@ -379,7 +377,7 @@
     },  
      
     {
-        "q": "The right to start a business is fundamental to any thriving economy.",
+        "q": "People should be allowed to start new small businesses.",
         "w": 1,
         "a": "auto"
     },
@@ -420,8 +418,8 @@
         "a": "comm"
     },
     {
-        "q": "Fiat currency should be replaced/abolished.",
-        "w": -1,
+        "q": "State should take care of currency.",
+        "w": 1,
         "a": "comm"
-    }
+    },
 ]
