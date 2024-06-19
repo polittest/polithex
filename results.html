@@ -92,18 +92,18 @@
         ctx.font = "40px futura"
         ctx.textAlign = "left"
         ctx.fillStyle = "#93952f"
-        ctx.fillText("Autonomy: " + ((lT.x * 100).toFixed(2)) + "%", 64, 856)
+        ctx.fillText("Autonomy: " + ((lT.x * 100).toFixed(2)) + "%" + "(" + lT.x + ")", 64, 856)
         ctx.fillStyle = "#ff2923"
-        ctx.fillText("Collective: " + ((lT.y * 100).toFixed(2)) + "%", 64, 908)
+        ctx.fillText("Collective: " + ((lT.y * 100).toFixed(2)) + "%" + "(" + lT.y + ")", 64, 908)
         ctx.fillStyle = "#4f2578"
-        ctx.fillText("Hierarchy: " + ((lT.z * 100).toFixed(2)) + "%", 64, 960)
+        ctx.fillText("Hierarchy: " + ((lT.z * 100).toFixed(2)) + "%" + "(" + lT.z + ")", 64, 960)
         ctx.textAlign = "right"
         ctx.fillStyle = "#22546a"
-        ctx.fillText("Property: " + ((rT.x * 100).toFixed(2)) + "%", 896, 856)
+        ctx.fillText("Property: " + ((rT.x * 100).toFixed(2)) + "%" + "(" + rT.x + ")", 896, 856)
         ctx.fillStyle = "#ff6400"
-        ctx.fillText("Horizontality: " + ((rT.y * 100).toFixed(2)) + "%", 896, 908)
+        ctx.fillText("Horizontality: " + ((rT.y * 100).toFixed(2)) + "%" + "(" + rT.y + ")", 896, 908)
         ctx.fillStyle = "#c10061"
-        ctx.fillText("Command: " + ((rT.z * 100).toFixed(2)) + "%", 896, 960)
+        ctx.fillText("Command: " + ((rT.z * 100).toFixed(2)) + "%" + "(" + rT.z + ")", 896, 960)
     }
     leftTr = calcTriang({ x: vars[2], y: vars[0], z: vars[4] })
     rightTr = calcTriang({ x: vars[3], y: vars[1], z: vars[5] })
