@@ -14,25 +14,46 @@
         "q": "Workers in the most essential parts of the economy should not be allowed to strike.",
         "w": 1,
         "a": "hier"
+   },
+{
+        "q": "In times of war forced military draft is justified.",
+        "w": 1,
+        "a": "hier"
     },
     {
-        "q": "Economy needs some centralised planning by the government.",
+        "q": "The economy should be mostly organized locally.",
         "w": 1,
-        "a": "comm"
+        "a": "hori"
     },
     {
         "q": "Economic democracy is a good idea.",
         "w": 1,
         "a": "demo"
     },
+ {
+        "q": "Anyone can believe in anything or have their own political or philosophical ideology, as long as they don't harm anyone.",
+        "w": 1,
+        "a": "auto"
+    },
 
+{
+        "q": "Strength is one of the most important virtues.",
+        "w": 1,
+        "a": "hier"
+    },
            {
         "q": "Free speech should be protected.",
         "w": -1,
         "a": "hier"
     },
+{
+        "q": "“The truth is, no one of us can be free until everybody is free.”",
+        "w": 1,
+        "a": "demo"
+    },
+
     {
-        "q": "Privacy should be always repected.",
+        "q": "Privacy should always be respected.",
         "w": 1,
         "a": "auto"
     },
@@ -41,10 +62,24 @@
         "w": 1,
         "a": "hier"
     },
+{
+        "q": "Euthanasia should be legal.",
+        "w": 1,
+        "a": "auto"
+    },
+{
+        "q": "The death penalty should be an option for the most serious crimes.",
+        "w": 1,
+        "a": "hier"
+    },
+
     
         {
         "q": "The state should help the rich more than the poor, because they gave more to society.",
         "w": 1,
+        
+        "w": 1,
+        
         "a": "hier"
     },
             {
@@ -89,7 +124,7 @@
         "a": "prop"
     },
     {
-        "q": "Ideal system would allow individuals to voluntarily enter into slave contracts.",
+        "q": "There is nothing wrong in slavery, if first.",
         "w": 1,
         "a": "hier"
     },
@@ -227,8 +262,8 @@
         "a": "comm"
     },
     {
-        "q": "Workers should negotiate for wages independently not collectively.",
-        "w": -1,
+        "q": "What's best for majority is best for everone.",
+        "w": 1,
         "a": "demo"
     },
     
@@ -239,7 +274,7 @@
     },
     {
         "q": "Slave labor is justified if its productive enough.",
-        "w": 1,
+        "w": 2,
         "a": "hier"
     },
    
