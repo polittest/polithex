@@ -63,14 +63,14 @@
         "a": "hier"
     },
 {
-        "q": "Euthanasia should be legal.",
-        "w": 1,
+        "q": "People should .",
+        "w": -1,
         "a": "auto"
     },
 {
         "q": "The death penalty should be an option for the most serious crimes.",
-        "w": 1,
-        "a": "hier"
+        "w": -1,
+        "a": "auto"
     },
 
     
