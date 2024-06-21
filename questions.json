@@ -109,11 +109,7 @@
         "w": -1,
         "a": "hier"
     },
-    {
-        "q": "The hiring and firing of workers should not be down to the whims of bosses.",
-        "w": -1,
-        "a": "hier"
-    },
+    
     {
         "q": "Natural resources belong to whoever found them first and did the required prospecting.",
         "w": 1,
@@ -184,7 +180,7 @@
     },
         {
         "q": "Workers' self-management is a good principle.",
-        "w": 2,
+        "w": 1,
         "a": "hori"
     },
     {
@@ -262,7 +258,7 @@
     },
     {
         "q": "Slave labor is justified if its productive enough.",
-        "w": 2,
+        "w": 1,
         "a": "hier"
     },
    
@@ -339,9 +335,9 @@
         "q": "I don't care about economic system as long as I have freedom.",
         "w": 1,
         "a": "auto"
-    },  
+    },
     {
-        "q": "More people should aim to be self employed.",
+        "q": "More people should consider becoming freenlancers.",
         "w": 1,
         "a": "auto"
     }, 
