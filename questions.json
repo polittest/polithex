@@ -20,11 +20,7 @@
         "w": 1,
         "a": "hier"
     },
-    {
-        "q": "The economy should be mostly organized locally.",
-        "w": 1,
-        "a": "hori"
-    },
+    
     {
         "q": "Economic democracy is a good idea.",
         "w": 1,
@@ -69,8 +65,8 @@
     },
 {
         "q": "The death penalty should be an option for the most serious crimes.",
-        "w": -1,
-        "a": "auto"
+        "w": 1,
+        "a": "hier"
     },
 
     
@@ -123,11 +119,7 @@
         "w": 1,
         "a": "prop"
     },
-    {
-        "q": "There is nothing wrong in slavery, if first.",
-        "w": 1,
-        "a": "hier"
-    },
+    
     
     {
         "q": "Private investors and speculators are needed for efficient economy.",
@@ -155,7 +147,7 @@
         "a": "prop"
     },
     {
-        "q": "Copyrights and patents are worthless, as intellectual property belongs to everyone.",
+        "q": "Copyrights and patents are worthless.",
         "w": -1,
         "a": "prop"
     },
@@ -175,7 +167,7 @@
         "a": "auto"
     },
     {
-        "q": "Trade between two consenting individuals should never be obstructed.",
+        "q": "There is nothing wrong in trade between two consenting individuals.",
         "w": 1,
         "a": "auto"
     },
@@ -192,7 +184,7 @@
     },
         {
         "q": "Workers' self-management is a good principle.",
-        "w": 1,
+        "w": 2,
         "a": "hori"
     },
     {
@@ -206,11 +198,7 @@
         "a": "hori"
     },
     
-    {
-        "q": "Worker cooperatives are not any better than traditional firms.",
-        "w": -1,
-        "a": "hori"
-    },
+ 
     {
         "q": "I emphasize the absolute priority of self-interest.",
         "w": 1,
@@ -388,7 +376,7 @@
     },  
     {
         "q": "People who gain wealth by capital or property they already own, rather than by labour, can be considered parasites to the society and labourers.",
-        "w": -1,
+        "w": -2,
         "a": "prop"
     },  
 
@@ -401,7 +389,7 @@
         "a": "auto"
     },
     {
-        "q": "Sometimes you have to sacrifice the good of an individual for the greater good.",
+        "q": "Sometimes you have to sacrifice the good of an individual for good of the collective.",
         "w": -1,
         "a": "auto"
     },   
@@ -411,11 +399,7 @@
         "a": "comm"
     },  
      
-    {
-        "q": "People should be allowed to start new small businesses.",
-        "w": 1,
-        "a": "auto"
-    },
+    
     {
         "q": "Employment should be guaranteed.",
         "w": 1,
