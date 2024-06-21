@@ -63,8 +63,8 @@
         "a": "hier"
     },
 {
-        "q": "People should .",
-        "w": -1,
+        "q": "Euthanasia should be legal.",
+        "w": 1,
         "a": "auto"
     },
 {
@@ -244,7 +244,7 @@
         {
         "q": "We should switch from commodity production to production for use.",
         "w": 1,
-        "a": "comm"
+        "a": "demo"
     },
     {
         "q": "Income tax is a necessary evil, if an evil at all.",
@@ -262,7 +262,7 @@
         "a": "comm"
     },
     {
-        "q": "What's best for majority is best for everone.",
+        "q": "What's best for majority is best for everyone.",
         "w": 1,
         "a": "demo"
     },
@@ -348,7 +348,7 @@
         "a": "comm"
     }, 
     {
-        "q": "The freer the market, the freer the people.",
+        "q": "I don't care about economic system as long as I have freedom.",
         "w": 1,
         "a": "auto"
     },  
