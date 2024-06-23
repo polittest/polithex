@@ -88,7 +88,7 @@
         ctx.fillText("https://polittest.github.io", 936, 32)
         today = new Date()
         ctx.fillText("Taken on: " + today.toISOString().substring(0, 10), 936, 64)
-        ctx.fillText("Version 1.0.0", 936, 96)
+        ctx.fillText("Version ???", 936, 96)
         ctx.font = "40px futura"
         ctx.textAlign = "left"
         ctx.fillStyle = "#93952f"
@@ -104,6 +104,7 @@
         ctx.fillText("Horizontality: " + ((rT.y * 100).toFixed(2)) + "%", 896, 908)
         ctx.fillStyle = "#c10061"
         ctx.fillText("Command: " + ((rT.z * 100).toFixed(2)) + "%", 896, 960)
+        ctx.fillText(window.location.href.substring(0, 30), 525, 720)
     }
     leftTr = calcTriang({ x: vars[2], y: vars[0], z: vars[4] })
     rightTr = calcTriang({ x: vars[3], y: vars[1], z: vars[5] })
