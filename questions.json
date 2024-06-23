@@ -83,11 +83,7 @@
         "w": 1,
         "a": "hier"
     },
-    {
-        "q": "Neither police nor private security firms.",
-        "w": 1,
-        "a": "hori"
-    },
+    
     {
         "q": "At some point, the state will no longer be necessary.",
         "w": -1,
@@ -106,6 +102,11 @@
     },
     {
         "q": "Ideally, politicians would not exist.",
+        "w": -1,
+        "a": "hier"
+    },
+{
+        "q": "Cult of the personality/leader is a real concern.",
         "w": -1,
         "a": "hier"
     },
@@ -179,7 +180,7 @@
         "a": "hori"
     },
         {
-        "q": "Workers' self-management is a good principle.",
+        "q": "Workers' self-management is a good idea.",
         "w": 1,
         "a": "hori"
     },
@@ -206,8 +207,8 @@
         "a": "hori"
     },
     {
-        "q": "More laws should be determined by referendums.",
-        "w": 1,
+        "q": "Democracy is a failed system.",
+        "w": -1,
         "a": "demo"
     },
     {
@@ -246,7 +247,7 @@
         "a": "comm"
     },
     {
-        "q": "What's best for majority is best for everyone.",
+        "q": "What's best for majority is often best for everyone.",
         "w": 1,
         "a": "demo"
     },
@@ -332,6 +333,21 @@
         "a": "comm"
     }, 
     {
+ "q": "Workers should not be given too much autonomy or they’ll be lazy.",
+        "w": 1,
+        "a": "hier"
+    },
+{
+ "q": "Government run industry is superior to existing alternatives.",
+        "w": 1,
+        "a": "comm"
+    },
+{
+ "q": "Large scale organisations can increase efficiency.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
         "q": "I don't care about economic system as long as I have freedom.",
         "w": 1,
         "a": "auto"
@@ -372,7 +388,7 @@
     },  
     {
         "q": "People who gain wealth by capital or property they already own, rather than by labour, can be considered parasites to the society and labourers.",
-        "w": -2,
+        "w": -1,
         "a": "prop"
     },  
 
@@ -419,6 +435,11 @@
     
     {
         "q": "Certain services like roads and public transportation should be run by the state.",
+        "w": 1,
+        "a": "comm"
+    },
+{
+        "q": "Agencies like police should be run by the state.",
         "w": 1,
         "a": "comm"
     },
