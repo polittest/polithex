@@ -20,49 +20,20 @@
         "w": 1,
         "a": "hier"
     },
-    
-    {
-        "q": "Economic democracy is a good idea.",
-        "w": 1,
-        "a": "demo"
-    },
- {
-        "q": "Anyone can believe in anything or have their own political or philosophical ideology, as long as they don't harm anyone.",
-        "w": 1,
-        "a": "auto"
-    },
 
-{
-        "q": "Strength is one of the most important virtues.",
-        "w": 1,
-        "a": "hier"
-    },
+
            {
         "q": "Free speech should be protected.",
         "w": -1,
         "a": "hier"
     },
-{
-        "q": "“The truth is, no one of us can be free until everybody is free.”",
-        "w": 1,
-        "a": "demo"
-    },
-
-    {
-        "q": "Privacy should always be respected.",
-        "w": 1,
-        "a": "auto"
-    },
-    {
+    
+ {
         "q": "Prisoners should be forced to work to repay their debt to society.",
         "w": 1,
         "a": "hier"
     },
-{
-        "q": "Euthanasia should be legal.",
-        "w": 1,
-        "a": "auto"
-    },
+
 {
         "q": "The death penalty should be an option for the most serious crimes.",
         "w": 1,
@@ -89,13 +60,8 @@
         "w": -1,
         "a": "hier"
     },
-    
-    {
-        "q": "All unions and other labor organizations not affiliated with the state or government should be banned.",
-        "w": 1,
-        "a": "comm"
-    },
-    {
+
+{
         "q": "Monarchism and despotism are best forms of governance.",
         "w": 1,
         "a": "hier"
@@ -110,6 +76,139 @@
         "w": -1,
         "a": "hier"
     },
+
+    {
+        "q": "Unitary government is better than a federal one.",
+        "w": 1,
+        "a": "hier"
+    },
+
+   {
+        "q": "More participatory society would be more ideal.",
+        "w": -1,
+        "a": "hier"
+    },
+    
+    {
+        "q": "The economy should be organized by profession groups performing their function.",
+        "w": 1,
+        "a": "hier"
+    },
+    {
+        "q": "Prisons are oppressive and antiquated institutions that need to be abolished.",
+        "w": -1,
+        "a": "hier"
+    },
+{
+        "q": "People are dumb and limits should be put on dangerous actions to protect them.",
+        "w": 1,
+        "a": "hier"
+    },
+
+{
+        "q": "Slave labor is justified if its productive enough.",
+        "w": 1,
+        "a": "hier"
+    },
+
+ {
+        "q": "Authorities should not be questionned as long as they provide stability.",
+        "w": 1,
+        "a": "hier"
+    },
+
+{
+        "q": "We should reduce bureaucracy a lot.",
+        "w": -1,
+        "a": "hier"
+    },
+
+ {
+        "q": "Firearms should be available to the general public.",
+        "w": -1,
+        "a": "hier"
+    }, 
+{
+        "q": "In times of crisis, safety takes precedence over liberty.",
+        "w": 1,
+        "a": "hier"
+    },
+{
+ "q": "Workers should not be given too much autonomy or they’ll be lazy.",
+        "w": 1,
+        "a": "hier"
+    },
+{
+        "q": "We should switch from commodity production to production for use.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "Economic democracy is a good idea.",
+        "w": 1,
+        "a": "demo"
+    },
+{
+        "q": "“The truth is, no one of us can be free until everybody is free.”",
+        "w": 1,
+        "a": "demo"
+    },
+{
+        "q": "Unlimited growth is not sustainabile.",
+        "w": 1,
+        "a": "demo"
+    },
+{
+        "q": "Democracy is a failed system.",
+        "w": -1,
+        "a": "demo"
+    },
+    {
+        "q": "Tyranny of the majority is a legitimate concern.",
+        "w": -1,
+        "a": "demo"
+    },
+  {
+        "q": "What's best for majority is often best for everyone.",
+        "w": 1,
+        "a": "demo"
+    },
+    
+    {
+        "q": "All workplaces should have organization(s) representing workers, for example unions or worker councils.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "Wealth accumulation leads to the creation of an oppressive class system.",
+        "w": 1,
+        "a": "demo"
+    },  
+{
+        "q": "We must make sure everyone has enough to live, even if that negatively affects the economy.",
+        "w": 1,
+        "a": "demo"
+    },  
+{
+        "q": "Employment should be guaranteed.",
+        "w": 1,
+        "a": "demo"
+    },
+    {
+        "q": "We must make sure all economic entities serve the interests of the whole society. ",
+        "w": 1,
+        "a": "demo"
+    },
+{
+        "q": "Workers should engage in class struggle.",
+        "w": 1,
+        "a": "demo"
+    },
+ 
+
+    
+    
+    
     
     {
         "q": "Natural resources belong to whoever found them first and did the required prospecting.",
@@ -119,25 +218,17 @@
     
     
     {
-        "q": "Private investors and speculators are needed for efficient economy.",
-        "w": 1,
+        "q": "Private property should be abolished.",
+        "w": -1,
         "a": "prop"
     },
-    {
-        "q": "Land shouldn't be rented.",
-        "w": 1,
-        "a": "hori"
-    },
+    
     {
         "q": "Theft can never be justified.",
         "w": 1,
         "a": "prop"
     },
- {
-        "q": "Unlimited growth is not sustainabile.",
-        "w": 1,
-        "a": "demo"
-    },
+ 
     {
         "q": "Inheritance is not a legitimate form of wealth.",
         "w": -1,
@@ -146,6 +237,23 @@
     {
         "q": "Copyrights and patents are worthless.",
         "w": -1,
+        "a": "prop"
+    },
+  {
+        "q": "A nonmonetary economy is something we should strive for.",
+        "w": -1,
+        "a": "prop"
+    },  
+    {
+        "q": "People who gain wealth by capital or property they already own, rather than by labour, can be considered parasites to the society and labourers.",
+        "w": -1,
+        "a": "prop"
+    },  
+
+    
+{
+        "q": "Foreign investments are to be welcomed.",
+        "w": 1,
         "a": "prop"
     },
     {
@@ -168,12 +276,65 @@
         "w": 1,
         "a": "auto"
     },
+{
+        "q": "Anyone can believe in anything or have their own political or philosophical ideology, as long as they don't harm anyone.",
+        "w": 1,
+        "a": "auto"
+    },
+
+
+
 
     {
-        "q": "People are dumb and limits should be put on dangerous actions to protect them.",
+        "q": "Privacy should always be respected.",
         "w": 1,
-        "a": "hier"
+        "a": "auto"
     },
+   
+{
+        "q": "Euthanasia should be legal.",
+        "w": 1,
+        "a": "auto"
+    },
+        {
+        "q": "Economic coordination is needed.",
+        "w": -1,
+        "a": "auto"
+    },
+    {
+        "q": "We should reduce the coercion as much as possible.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
+        "q": "Sometimes you have to sacrifice the good of an individual for good of the collective.",
+        "w": -1,
+        "a": "auto"
+    },   
+    
+    
+    
+    {
+        "q": "I don't care about economic system as long as I have freedom.",
+        "w": 1,
+        "a": "auto"
+    },
+    {
+        "q": "More people should consider becoming freenlancers.",
+        "w": 1,
+        "a": "auto"
+    }, 
+     {
+        "q": "People should be allowed to do whatever they want in their own yard.",
+        "w": 1,
+        "a": "auto"     
+    },
+{
+        "q": "I emphasize the absolute priority of self-interest.",
+        "w": 1,
+        "a": "auto"
+    },
+
     {
         "q": "Nobody should be restricted from using abandoned property.",
         "w": 1,
@@ -195,26 +356,44 @@
         "a": "hori"
     },
     
- 
-    {
-        "q": "I emphasize the absolute priority of self-interest.",
-        "w": 1,
-        "a": "auto"
-    },
-    {
+{
         "q": "A classless society is a desirable end goal.",
         "w": 1,
         "a": "hori"
     },
-    {
-        "q": "Democracy is a failed system.",
-        "w": -1,
-        "a": "demo"
+ {
+        "q": "Land shouldn't be rented.",
+        "w": 1,
+        "a": "hori"
     },
+
     {
-        "q": "Tyranny of the majority is a legitimate concern.",
+        "q": "Workers deserve a greater part of what they create.",
+        "w": 1,
+        "a": "hori"
+    },
+
+   
+    {
+        "q": "There is nothing wrong in wage labour.",
         "w": -1,
-        "a": "demo"
+        "a": "hori"
+    },  
+    
+    
+
+    
+    {
+        "q": "The “Right to Travel” does not exist.",
+        "w": -1,
+        "a": "hori"
+    },
+    
+    
+{
+ "q": "Government run industry is superior to existing alternatives.",
+        "w": 1,
+        "a": "comm"
     },
     {
         "q": "The most important parts of the economy should be nationalised.",
@@ -226,11 +405,7 @@
         "w": 1,
         "a": "comm"
     },
-        {
-        "q": "We should switch from commodity production to production for use.",
-        "w": 1,
-        "a": "demo"
-    },
+        
     {
         "q": "Income tax is a necessary evil, if an evil at all.",
         "w": 1,
@@ -246,194 +421,26 @@
         "w": 1,
         "a": "comm"
     },
-    {
-        "q": "What's best for majority is often best for everyone.",
-        "w": 1,
-        "a": "demo"
-    },
-    
-    {
-        "q": "All workplaces should have organization(s) representing workers, for example unions or worker councils.",
-        "w": 1,
-        "a": "demo"
-    },
-    {
-        "q": "Slave labor is justified if its productive enough.",
-        "w": 1,
-        "a": "hier"
-    },
+  
    
     {
         "q": "State welfare programs should be replaced by charity or mutual aid.",
         "w": -1,
         "a": "comm"
     },
-    {
-        "q": "More participatory society would be more ideal.",
-        "w": -1,
-        "a": "hier"
-    },
+ 
     
-    {
-        "q": "The economy should be organized by profession groups performing their function.",
-        "w": 1,
-        "a": "hier"
-    },
-    {
-        "q": "Prisons are oppressive and antiquated institutions that need to be abolished.",
-        "w": -1,
-        "a": "hier"
-    },
-    
-    {
-        "q": "Foreign investments are to be welcomed.",
-        "w": 1,
-        "a": "prop"
-    },
-    {
-        "q": "The government should be capable of assigning individuals to workplaces.",
-        "w": 1,
-        "a": "comm"
-    },
-    {
-        "q": "Authorities should not be questionned as long as they provide stability.",
-        "w": 1,
-        "a": "hier"
-    },
-    {
-        "q": "Workers should engage in class struggle.",
-        "w": 1,
-        "a": "demo"
-    },
-    {
-        "q": "Workers deserve a greater part of what they create.",
-        "w": 1,
-        "a": "hori"
-    },
-    
-    
-    {
-        "q": "Economic coordination is needed.",
-        "w": -1,
-        "a": "auto"
-    },
-    {
-        "q": "We should reduce bureaucracy a lot.",
-        "w": -1,
-        "a": "hier"
-    },
-    {
-        "q": "We must make sure everyone has enough to live, even if that negatively affects the economy.",
-        "w": 1,
-        "a": "demo"
-    },  
     {
         "q": "The state should control all aspects of the economy.",
         "w": 1,
         "a": "comm"
     }, 
     {
- "q": "Workers should not be given too much autonomy or they’ll be lazy.",
-        "w": 1,
-        "a": "hier"
-    },
-{
- "q": "Government run industry is superior to existing alternatives.",
+        "q": "The government should be capable of assigning individuals to workplaces.",
         "w": 1,
         "a": "comm"
     },
 {
- "q": "Large scale organisations can increase efficiency.",
-        "w": 1,
-        "a": "hier"
-    },
-    {
-        "q": "I don't care about economic system as long as I have freedom.",
-        "w": 1,
-        "a": "auto"
-    },
-    {
-        "q": "More people should consider becoming freenlancers.",
-        "w": 1,
-        "a": "auto"
-    }, 
-     
-
-    
-    {
-        "q": "Wealth accumulation leads to the creation of an oppressive class system.",
-        "w": 1,
-        "a": "demo"
-    },  
-    {
-        "q": "Firearms should be available to the general public.",
-        "w": -1,
-        "a": "hier"
-    }, 
-    {
-        "q": "There is nothing wrong in wage labour.",
-        "w": -1,
-        "a": "hori"
-    },  
-    
-    {
-        "q": "People should be allowed to do whatever they want in their own yard.",
-        "w": 1,
-        "a": "auto"     
-    },   
-  {
-        "q": "A nonmonetary economy is something we should strive for.",
-        "w": -1,
-        "a": "prop"
-    },  
-    {
-        "q": "People who gain wealth by capital or property they already own, rather than by labour, can be considered parasites to the society and labourers.",
-        "w": -1,
-        "a": "prop"
-    },  
-
-    
-
-    
-    {
-        "q": "We should reduce the coercion as much as possible.",
-        "w": 1,
-        "a": "auto"
-    },
-    {
-        "q": "Sometimes you have to sacrifice the good of an individual for good of the collective.",
-        "w": -1,
-        "a": "auto"
-    },   
-    {
-        "q": "People should be economically deterred from spending their money on useless products, by banning them.",
-        "w": 1,
-        "a": "comm"
-    },  
-     
-    
-    {
-        "q": "Employment should be guaranteed.",
-        "w": 1,
-        "a": "demo"
-    },
-    {
-        "q": "In times of crisis, safety takes precedence over liberty.",
-        "w": 1,
-        "a": "hier"
-    },
-    {
-        "q": "The “Right to Travel” does not exist.",
-        "w": -1,
-        "a": "hori"
-    },
-{
-        "q": "We must make sure all economic entities serve the interests of the whole society. ",
-        "w": 1,
-        "a": "demo"
-    },
-    
-    {
         "q": "Certain services like roads and public transportation should be run by the state.",
         "w": 1,
         "a": "comm"
@@ -443,11 +450,7 @@
         "w": 1,
         "a": "comm"
     },
-        {
-        "q": "Unitary government is better than a federal one.",
-        "w": 1,
-        "a": "hier"
-    },
+    
     {
         "q": "There should be no central bank.",
         "w": -1,
@@ -457,5 +460,16 @@
         "q": "State should take care of currency.",
         "w": 1,
         "a": "comm"
+    },
+   
+{
+        "q": "People should be economically deterred from spending their money on useless products, by banning them.",
+        "w": 1,
+        "a": "comm"
     }
+    
+    
+
+    
+    
 ]
