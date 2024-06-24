@@ -522,7 +522,8 @@
     },
     
     
-<!-- 11 -->{
+<!-- 11 -->
+{
         "q": "There should be no central bank.",
         "w": -1,
         "a": "comm"
@@ -540,7 +541,7 @@
         "q": "All unions and other labor organizations not affiliated with the state or government should be banned.",
         "w": 1,
         "a": "comm"
-    },
+    }
 
     
     
