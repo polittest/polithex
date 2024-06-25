@@ -1,4 +1,4 @@
-[
+are[
   
     {
         "q": "Obedience and respect for authority are the most important virtues children should learn.",
@@ -148,7 +148,7 @@
     },
 
     {
-        "q": "Economic democracy is a good idea.",
+        "q": "We should implement social dividend.",
         "w": 1,
         "a": "demo"
     },
@@ -160,8 +160,8 @@
     },
 
 {
-        "q": "Democracy and isocracy are failed systems.",
-        "w": -1,
+        "q": "Everyone should have equal say in the government.",
+        "w": 1,
         "a": "demo"
     },
 
