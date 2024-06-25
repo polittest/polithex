@@ -78,11 +78,7 @@
         "a": "hier"
     },
 
-{
-        "q": "Cult of the personality/leader is a real concern.",
-        "w": -1,
-        "a": "hier"
-    },
+
 
     {
         "q": "Unitary government is better than a federal one.",
@@ -244,6 +240,11 @@
   {
         "q": "A nonmonetary economy is something we should strive for.",
         "w": -1,
+        "a": "prop"
+    },
+{
+        "q": "Private property is natural and attempts to get rid of it are futile.",
+        "w": 1,
         "a": "prop"
     }, 
     {
@@ -439,7 +440,7 @@
       
  
     {
-        "q": "Income tax is a necessary evil, if an evil at all.",
+        "q": "Taxes are a necessary evil, if an evil at all.",
         "w": 1,
         "a": "comm"
     },
