@@ -185,24 +185,12 @@
         "w": 1,
         "a": "demo"
     },
-{
-        "q": "Utillitarianism is a good moral frame work.",
-        "w": 1,
-        "a": "demo"
-    },  
 
-    {
-        "q": "Competition motivates everyone to self improve and make better society.",
-        "w": -1,
-        "a": "demo"
-    },
-{
-        "q": "Economic competition drives unnecessary inequality.",
-        "w": 1,
-        "a": "demo"
-    },
+
+    
+
  {
-        "q": "Ideas made and accepted by the majority are more likely true, than ones made by small group of elites.",
+        "q": "Ideas and theories made and accepted by the majority are more likely true, than ones made by small group of elites.",
         "w": 1,
         "a": "demo"
     },
@@ -258,7 +246,11 @@
         "w": -1,
         "a": "prop"
     },  
-
+{
+        "q": "Economic speculators and investors are needed for modern efficient economy.",
+        "w": 1,
+        "a": "prop"
+    },  
     
 {
         "q": "Foreign investments are to be welcomed.",
@@ -336,7 +328,7 @@
         "a": "auto"
     },
 {
-        "q": "Independence is a virtue we should all strive for.",
+        "q": "The individual is paramount to society.",
         "w": 1,
         "a": "auto"
     },
@@ -348,18 +340,10 @@
     }, 
 
 
-     {
-        "q": "People should be allowed to do whatever they want in their own yard.",
-        "w": 1,
-        "a": "auto"     
-    },
+    
 
 
-{
-        "q": "The individual is paramount to society.",
-        "w": 1,
-        "a": "auto"
-    },
+
 
     {
         "q": "Everyone should be equal before the law (if unified law exists).",
@@ -403,7 +387,7 @@
 
 
  {
-        "q": "Land shouldn't be rented.",
+        "q": "Land should not be rented, even by the state.",
         "w": 1,
         "a": "hori"
     },
