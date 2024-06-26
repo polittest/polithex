@@ -1,4 +1,4 @@
-[
+na[
   
     {
         "q": "Obedience and respect for authority are the most important virtues children should learn.",
@@ -20,8 +20,8 @@
   
 {
         "q": "In times of war military draft is justified.",
-        "w": 1,
-        "a": "hier"
+        "w": -1,
+        "a": "auto"
     },
   
 
@@ -44,15 +44,7 @@
         "a": "hier"
     },
 
-    
-        {
-        "q": "The state should help the rich more than the poor, because they gave more to society.",
-        "w": 1,
-        
-        "w": 1,
-        
-        "a": "hier"
-    },
+   
 
             {
         "q": "Some roles and jobs should be hereditary.",
@@ -72,19 +64,15 @@
         "a": "hier"
     },
 
-    {
-        "q": "Ideally, rulers would not exist.",
-        "w": -1,
-        "a": "hier"
-    },
-
-
-
-    {
+  
+{
         "q": "Unitary government is better than a federal one.",
         "w": 1,
         "a": "hier"
     },
+
+
+
 
    {
         "q": "More participatory society would be more ideal.",
@@ -166,7 +154,7 @@
     },
 
     {
-        "q": "Tyranny of the majority is a legitimate concern.",
+        "q": "Tyranny of the majority is as legitimate concern as tyranny of minority, if not more.",
         "w": -1,
         "a": "demo"
     },
@@ -271,6 +259,12 @@
         "w": 1,
         "a": "auto"
     },
+{
+        "q": "Government has no right to disrupt religious or cultural traditions.",
+        "w": 1,
+        "a": "auto"
+    },
+
 
     {
         "q": "No individual should ever be required to serve any collective expectation.",
@@ -440,7 +434,7 @@
       
  
     {
-        "q": "Taxes are a necessary evil, if an evil at all.",
+        "q": "Taxes are necessary evil, if an evil at all.",
         "w": 1,
         "a": "comm"
     },
