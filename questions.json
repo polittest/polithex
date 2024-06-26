@@ -148,7 +148,7 @@
     },
 
 {
-        "q": "Everyone should have equal say in the government.",
+        "q": "Everyone should have equal say in the government (if government exists).",
         "w": 1,
         "a": "demo"
     },
@@ -179,27 +179,45 @@
         "a": "demo"
     },  
 
+
 {
         "q": "Employment should be guaranteed.",
         "w": 1,
         "a": "demo"
     },
+{
+        "q": "Utillitarianism is a good moral frame work.",
+        "w": 1,
+        "a": "demo"
+    },  
 
     {
-        "q": "We must make sure all economic entities serve the interests of the whole society. ",
-        "w": 1,
+        "q": "Competition motivates everyone to self improve and make better society.",
+        "w": -1,
         "a": "demo"
     },
 {
-        "q": "Workers should engage in class struggle.",
+        "q": "Economic competition drives unnecessary inequality.",
         "w": 1,
         "a": "demo"
     },
- 
+ {
+        "q": "Ideas made and accepted by the majority are more likely true, than ones made by small group of elites.",
+        "w": 1,
+        "a": "demo"
+    },
 
+    {
+        "q": "We should get rid of global inequality as soon as it's possible.",
+        "w": 1,
+        "a": "demo"
+    },
     
-    
-   
+   {
+        "q": "It is in the individual's interest to help others.",
+        "w": 1,
+        "a": "demo"
+    },
     
     {
         "q": "Natural resources belong to whoever found them first and did the required prospecting.",
@@ -231,7 +249,7 @@
         "a": "prop"
     },
 {
-        "q": "Private property is natural and attempts to get rid of it are futile.",
+        "q": "Private property is natural and attempts to fully get rid of it are futile.",
         "w": 1,
         "a": "prop"
     }, 
@@ -317,7 +335,11 @@
         "w": 1,
         "a": "auto"
     },
-
+{
+        "q": "Independence is a virtue we should all strive for.",
+        "w": 1,
+        "a": "auto"
+    },
 
     {
         "q": "More people should consider becoming freelancers.",
@@ -334,7 +356,7 @@
 
 
 {
-        "q": "I emphasize the absolute priority of self-interest.",
+        "q": "The individual is paramount to society.",
         "w": 1,
         "a": "auto"
     },
