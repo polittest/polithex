@@ -1,4 +1,4 @@
-na[
+[
   
     {
         "q": "Obedience and respect for authority are the most important virtues children should learn.",
@@ -119,8 +119,8 @@ na[
 
 {
         "q": "In times of crisis, safety takes precedence over liberty.",
-        "w": 1,
-        "a": "hier"
+        "w": -1,
+        "a": "auto"
     },
 
 {
