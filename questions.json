@@ -257,6 +257,11 @@
         "w": 1,
         "a": "prop"
     },
+{
+        "q": "If someone owns a piece of land, they should be able to make own laws on it.",
+        "w": 1,
+        "a": "prop"
+    },
 
     {
         "q": "Victimless crimes should not be considered crimes at all.",
@@ -328,7 +333,7 @@
         "a": "auto"
     },
 {
-        "q": "The individual is paramount to society.",
+        "q": "If people want to live unhealthy lifestyles, it is their right to do so.",
         "w": 1,
         "a": "auto"
     },
