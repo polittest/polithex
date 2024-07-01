@@ -7,7 +7,7 @@
     },
   
     {
-        "q": "It is to be expected to see hierarchy remain, as anyone can be better or worse than others.",
+        "q": "It is to be expected to see social hierarchy remain, as anyone can be better or worse than others.",
         "w": 1,
         "a": "hier"
     },
@@ -42,10 +42,13 @@
         "q": "The death penalty should be an option for the most serious crimes.",
         "w": 1,
         "a": "hier"
-    },
-
+},
    
-
+{
+        "q": "In times of crisis, safety takes precedence over liberty.",
+        "w": 1,
+        "a": "hier"
+},
             {
         "q": "Some roles and jobs should be hereditary.",
         "w": 1,
@@ -114,12 +117,6 @@
  {
         "q": "Firearms should be available to the general public.",
         "w": 1,
-        "a": "auto"
-    },
-
-{
-        "q": "In times of crisis, safety takes precedence over liberty.",
-        "w": -1,
         "a": "auto"
     },
 
@@ -264,7 +261,7 @@
     },
 
     {
-        "q": "Victimless crimes should not be considered crimes at all.",
+        "q": "Everyone has right to bodily autonomy.",
         "w": 1,
         "a": "auto"
     },
@@ -305,8 +302,8 @@
     },
    
         {
-        "q": "Economic coordination is needed.",
-        "w": -1,
+        "q": "I oppose military interventions.",
+        "w": 1,
         "a": "auto"
     },
 
@@ -366,11 +363,7 @@
         "a": "hori"
     },
 
-    {
-        "q": "Nobody should be restricted from using abandoned property.",
-        "w": 1,
-        "a": "hori"
-    },
+    
 
 
         {
@@ -429,7 +422,11 @@
     },  
 
    
-
+{
+        "q": "Decentralised economies generally work better than centralised ones.",
+        "w": 1,
+        "a": "hori"
+    },  
 
     
     {
@@ -529,7 +526,7 @@
   
 
     {
-        "q": "The state should decide on prices of products.",
+        "q": "Product prices should be decided by the state.",
         "w": 1,
         "a": "comm"
     }
