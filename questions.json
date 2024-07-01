@@ -113,8 +113,8 @@
 
  {
         "q": "Firearms should be available to the general public.",
-        "w": -1,
-        "a": "hier"
+        "w": 1,
+        "a": "auto"
     },
 
 {
@@ -148,7 +148,7 @@
     },
 
 {
-        "q": "Everyone should have equal say in the government (if government exists).",
+        "q": "Everyone should have equal say in the government (if consistent government exists).",
         "w": 1,
         "a": "demo"
     },
@@ -258,7 +258,7 @@
         "a": "prop"
     },
 {
-        "q": "If someone owns a piece of land, they should be able to make own laws on it.",
+        "q": "If someone owns a piece of land, they should be able to make own rules on it.",
         "w": 1,
         "a": "prop"
     },
@@ -276,9 +276,9 @@
     },
 {
         "q": "Government has no right to disrupt religious or cultural traditions.",
-        "w": 1,
+     "w": 1,
         "a": "auto"
-    },
+    },   
 
 
     {
@@ -310,7 +310,11 @@
         "a": "auto"
     },
 
-
+  {
+        "q": "Ideally, laws would not exist.",
+        "w": 1,
+        "a": "auto"
+    },
     {
         "q": "We should reduce the coercion as much as possible.",
         "w": 1,
@@ -351,9 +355,15 @@
 
 
     {
-        "q": "Everyone should be equal before the law (if unified law exists).",
+        "q": "Everyone should be equal before the law.",
         "w": 1,
         "a": "auto"
+    },
+
+ {
+        "q": "Nobody should be restricted from using abandoned property.",
+        "w": 1,
+        "a": "hori"
     },
 
     {
@@ -406,12 +416,18 @@
 
 
    
+
     {
-        "q": "There is nothing wrong in consensual wage labour.",
+        "q": "Independent labor organizations should not be allowed to exist.",
         "w": -1,
         "a": "hori"
     },  
-    
+{
+        "q": "An economy is generally designed better when it is organized bottom-up rather than top-down.",
+        "w": 1,
+        "a": "hori"
+    },  
+
    
 
 
@@ -445,7 +461,7 @@
       
  
     {
-        "q": "Taxes are necessary evil, if an evil at all.",
+        "q": "Taxes should  voluntary, or entirely abolished.",
         "w": 1,
         "a": "comm"
     },
@@ -510,12 +526,12 @@
         "a": "comm"
     },
     
+  
+
     {
-        "q": "All unions and other labor organizations not affiliated with the state or government should be banned.",
+        "q": "The state should decide on prices of products.",
         "w": 1,
         "a": "comm"
     }
-
-    
     
 ]
