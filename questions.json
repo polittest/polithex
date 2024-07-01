@@ -145,7 +145,7 @@
     },
 
 {
-        "q": "Everyone should have equal say in the government (if consistent government exists).",
+        "q": "Everyone should have near equal political power, including undocumented immigrants.",
         "w": 1,
         "a": "demo"
     },
@@ -186,14 +186,13 @@
 
     
 
- {
-        "q": "Ideas and theories made and accepted by the majority are more likely true, than ones made by small group of elites.",
+    {
+        "q": "We should get rid of global inequality as soon as it's possible.",
         "w": 1,
         "a": "demo"
     },
-
-    {
-        "q": "We should get rid of global inequality as soon as it's possible.",
+{
+        "q": "We should combat mindless consumerism.",
         "w": 1,
         "a": "demo"
     },
@@ -261,7 +260,7 @@
     },
 
     {
-        "q": "Everyone has right to bodily autonomy.",
+        "q": An individual should be allowed to do whatever they want with their own body.",
         "w": 1,
         "a": "auto"
     },
@@ -302,7 +301,7 @@
     },
    
         {
-        "q": "I oppose military interventions.",
+        "q": "I oppose military interventionism.",
         "w": 1,
         "a": "auto"
     },
@@ -340,7 +339,7 @@
     },
 
     {
-        "q": "More people should consider becoming freelancers.",
+        "q": "Any sexual activity is fine as long as everyone involved is a consenting adult, even if they are related.",
         "w": 1,
         "a": "auto"
     }, 
@@ -380,7 +379,7 @@
 
 
     {
-        "q": "Hierarchy is always coercive and thus cannot ever be justified.",
+        "q": "Hierarchies should be dismantled.",
         "w": 1,
         "a": "hori"
     },
